@@ -1,0 +1,7 @@
+degree 1 h 8 total 9 seconds 0.000298479
+degree 2 h 32 total 41 seconds 0.0110813
+degree 3 h 84 total 125 seconds 0.123866
+degree 4 h 111 total 236 seconds 0.747232
+degree 5 h 4 total 240 seconds 0.265425
+H [1,8,32,84,111,4]
+PIVOTS []

@@ -1,0 +1,249 @@
+# python 3.13.16, numpy 2.5.3, x86_64, Linux
+  n=3 p=23726557 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=3 p=23726557 d=1: candidates 1, h_d=3, dim F_d=4, frontier 1, 0.0s
+  n=3 p=23726557 d=2: candidates 2, h_d=2, dim F_d=6, frontier 1, 0.0s
+  n=3 p=23726557 d=3: candidates 2, h_d=1, dim F_d=7, frontier 2, 0.0s
+n=3 p=23726557: H = [1, 3, 2, 1]  (sum 7 = 2^n - 1, 0.0s)
+  n=3 p=23726551 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=3 p=23726551 d=1: candidates 1, h_d=3, dim F_d=4, frontier 1, 0.0s
+  n=3 p=23726551 d=2: candidates 2, h_d=2, dim F_d=6, frontier 1, 0.0s
+  n=3 p=23726551 d=3: candidates 2, h_d=1, dim F_d=7, frontier 2, 0.0s
+n=3 p=23726551: H = [1, 3, 2, 1]  (sum 7 = 2^n - 1, 0.0s)
+  n=4 p=19372649 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=4 p=19372649 d=1: candidates 1, h_d=4, dim F_d=5, frontier 1, 0.0s
+  n=4 p=19372649 d=2: candidates 3, h_d=7, dim F_d=12, frontier 3, 0.0s
+  n=4 p=19372649 d=3: candidates 4, h_d=3, dim F_d=15, frontier 2, 0.0s
+n=4 p=19372649: H = [1, 4, 7, 3]  (sum 15 = 2^n - 1, 0.0s)
+  n=4 p=19372637 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=4 p=19372637 d=1: candidates 1, h_d=4, dim F_d=5, frontier 1, 0.0s
+  n=4 p=19372637 d=2: candidates 3, h_d=7, dim F_d=12, frontier 3, 0.0s
+  n=4 p=19372637 d=3: candidates 4, h_d=3, dim F_d=15, frontier 2, 0.0s
+n=4 p=19372637: H = [1, 4, 7, 3]  (sum 15 = 2^n - 1, 0.0s)
+  n=5 p=16777141 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=5 p=16777141 d=1: candidates 1, h_d=5, dim F_d=6, frontier 1, 0.0s
+  n=5 p=16777141 d=2: candidates 3, h_d=14, dim F_d=20, frontier 3, 0.0s
+  n=5 p=16777141 d=3: candidates 6, h_d=10, dim F_d=30, frontier 4, 0.0s
+  n=5 p=16777141 d=4: candidates 8, h_d=1, dim F_d=31, frontier 2, 0.0s
+n=5 p=16777141: H = [1, 5, 14, 10, 1]  (sum 31 = 2^n - 1, 0.0s)
+  n=5 p=16777121 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=5 p=16777121 d=1: candidates 1, h_d=5, dim F_d=6, frontier 1, 0.0s
+  n=5 p=16777121 d=2: candidates 3, h_d=14, dim F_d=20, frontier 3, 0.0s
+  n=5 p=16777121 d=3: candidates 6, h_d=10, dim F_d=30, frontier 4, 0.0s
+  n=5 p=16777121 d=4: candidates 8, h_d=1, dim F_d=31, frontier 2, 0.0s
+n=5 p=16777121: H = [1, 5, 14, 10, 1]  (sum 31 = 2^n - 1, 0.0s)
+  n=6 p=12682381 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=6 p=12682381 d=1: candidates 1, h_d=6, dim F_d=7, frontier 1, 0.0s
+  n=6 p=12682381 d=2: candidates 4, h_d=20, dim F_d=27, frontier 4, 0.0s
+  n=6 p=12682381 d=3: candidates 9, h_d=31, dim F_d=58, frontier 8, 0.0s
+  n=6 p=12682381 d=4: candidates 15, h_d=5, dim F_d=63, frontier 2, 0.0s
+n=6 p=12682381: H = [1, 6, 20, 31, 5]  (sum 63 = 2^n - 1, 0.0s)
+  n=6 p=12682273 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=6 p=12682273 d=1: candidates 1, h_d=6, dim F_d=7, frontier 1, 0.0s
+  n=6 p=12682273 d=2: candidates 4, h_d=20, dim F_d=27, frontier 4, 0.0s
+  n=6 p=12682273 d=3: candidates 9, h_d=31, dim F_d=58, frontier 8, 0.0s
+  n=6 p=12682273 d=4: candidates 15, h_d=5, dim F_d=63, frontier 2, 0.0s
+n=6 p=12682273: H = [1, 6, 20, 31, 5]  (sum 63 = 2^n - 1, 0.0s)
+  n=7 p=10610671 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=7 p=10610671 d=1: candidates 1, h_d=7, dim F_d=8, frontier 1, 0.0s
+  n=7 p=10610671 d=2: candidates 4, h_d=27, dim F_d=35, frontier 4, 0.0s
+  n=7 p=10610671 d=3: candidates 11, h_d=63, dim F_d=98, frontier 11, 0.0s
+  n=7 p=10610671 d=4: candidates 23, h_d=28, dim F_d=126, frontier 8, 0.0s
+  n=7 p=10610671 d=5: candidates 28, h_d=1, dim F_d=127, frontier 2, 0.0s
+n=7 p=10610671: H = [1, 7, 27, 63, 28, 1]  (sum 127 = 2^n - 1, 0.0s)
+  n=7 p=10610657 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=7 p=10610657 d=1: candidates 1, h_d=7, dim F_d=8, frontier 1, 0.0s
+  n=7 p=10610657 d=2: candidates 4, h_d=27, dim F_d=35, frontier 4, 0.0s
+  n=7 p=10610657 d=3: candidates 11, h_d=63, dim F_d=98, frontier 11, 0.0s
+  n=7 p=10610657 d=4: candidates 23, h_d=28, dim F_d=126, frontier 8, 0.0s
+  n=7 p=10610657 d=5: candidates 28, h_d=1, dim F_d=127, frontier 2, 0.0s
+n=7 p=10610657: H = [1, 7, 27, 63, 28, 1]  (sum 127 = 2^n - 1, 0.0s)
+  n=8 p=7908809 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=8 p=7908809 d=1: candidates 1, h_d=8, dim F_d=9, frontier 1, 0.0s
+  n=8 p=7908809 d=2: candidates 5, h_d=35, dim F_d=44, frontier 5, 0.0s
+  n=8 p=7908809 d=3: candidates 14, h_d=96, dim F_d=140, frontier 13, 0.0s
+  n=8 p=7908809 d=4: candidates 34, h_d=106, dim F_d=246, frontier 22, 0.0s
+  n=8 p=7908809 d=5: candidates 60, h_d=9, dim F_d=255, frontier 4, 0.0s
+n=8 p=7908809: H = [1, 8, 35, 96, 106, 9]  (sum 255 = 2^n - 1, 0.0s)
+  n=8 p=7908721 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=8 p=7908721 d=1: candidates 1, h_d=8, dim F_d=9, frontier 1, 0.0s
+  n=8 p=7908721 d=2: candidates 5, h_d=35, dim F_d=44, frontier 5, 0.0s
+  n=8 p=7908721 d=3: candidates 14, h_d=96, dim F_d=140, frontier 13, 0.0s
+  n=8 p=7908721 d=4: candidates 34, h_d=106, dim F_d=246, frontier 22, 0.0s
+  n=8 p=7908721 d=5: candidates 60, h_d=9, dim F_d=255, frontier 4, 0.0s
+n=8 p=7908721: H = [1, 8, 35, 96, 106, 9]  (sum 255 = 2^n - 1, 0.0s)
+  n=9 p=6126139 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=9 p=6126139 d=1: candidates 1, h_d=9, dim F_d=10, frontier 1, 0.0s
+  n=9 p=6126139 d=2: candidates 5, h_d=44, dim F_d=54, frontier 5, 0.0s
+  n=9 p=6126139 d=3: candidates 18, h_d=138, dim F_d=192, frontier 18, 0.0s
+  n=9 p=6126139 d=4: candidates 46, h_d=243, dim F_d=435, frontier 33, 0.0s
+  n=9 p=6126139 d=5: candidates 94, h_d=75, dim F_d=510, frontier 18, 0.0s
+  n=9 p=6126139 d=6: candidates 92, h_d=1, dim F_d=511, frontier 2, 0.0s
+n=9 p=6126139: H = [1, 9, 44, 138, 243, 75, 1]  (sum 511 = 2^n - 1, 0.0s)
+  n=9 p=6126067 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=9 p=6126067 d=1: candidates 1, h_d=9, dim F_d=10, frontier 1, 0.0s
+  n=9 p=6126067 d=2: candidates 5, h_d=44, dim F_d=54, frontier 5, 0.0s
+  n=9 p=6126067 d=3: candidates 18, h_d=138, dim F_d=192, frontier 18, 0.0s
+  n=9 p=6126067 d=4: candidates 46, h_d=243, dim F_d=435, frontier 33, 0.0s
+  n=9 p=6126067 d=5: candidates 94, h_d=75, dim F_d=510, frontier 18, 0.0s
+  n=9 p=6126067 d=6: candidates 92, h_d=1, dim F_d=511, frontier 2, 0.0s
+n=9 p=6126067: H = [1, 9, 44, 138, 243, 75, 1]  (sum 511 = 2^n - 1, 0.0s)
+  n=10 p=4566161 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=10 p=4566161 d=1: candidates 1, h_d=10, dim F_d=11, frontier 1, 0.0s
+  n=10 p=4566161 d=2: candidates 6, h_d=54, dim F_d=65, frontier 6, 0.0s
+  n=10 p=4566161 d=3: candidates 21, h_d=190, dim F_d=255, frontier 20, 0.0s
+  n=10 p=4566161 d=4: candidates 62, h_d=405, dim F_d=660, frontier 48, 0.0s
+  n=10 p=4566161 d=5: candidates 143, h_d=346, dim F_d=1006, frontier 52, 0.0s
+  n=10 p=4566161 d=6: candidates 207, h_d=17, dim F_d=1023, frontier 4, 0.0s
+n=10 p=4566161: H = [1, 10, 54, 190, 405, 346, 17]  (sum 1023 = 2^n - 1, 0.1s)
+  n=10 p=4566151 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=10 p=4566151 d=1: candidates 1, h_d=10, dim F_d=11, frontier 1, 0.0s
+  n=10 p=4566151 d=2: candidates 6, h_d=54, dim F_d=65, frontier 6, 0.0s
+  n=10 p=4566151 d=3: candidates 21, h_d=190, dim F_d=255, frontier 20, 0.0s
+  n=10 p=4566151 d=4: candidates 62, h_d=405, dim F_d=660, frontier 48, 0.0s
+  n=10 p=4566151 d=5: candidates 143, h_d=346, dim F_d=1006, frontier 52, 0.0s
+  n=10 p=4566151 d=6: candidates 207, h_d=17, dim F_d=1023, frontier 4, 0.0s
+n=10 p=4566151: H = [1, 10, 54, 190, 405, 346, 17]  (sum 1023 = 2^n - 1, 0.0s)
+  n=11 p=3460799 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=11 p=3460799 d=1: candidates 1, h_d=11, dim F_d=12, frontier 1, 0.0s
+  n=11 p=3460799 d=2: candidates 6, h_d=65, dim F_d=77, frontier 6, 0.0s
+  n=11 p=3460799 d=3: candidates 25, h_d=253, dim F_d=330, frontier 25, 0.0s
+  n=11 p=3460799 d=4: candidates 80, h_d=627, dim F_d=957, frontier 65, 0.0s
+  n=11 p=3460799 d=5: candidates 204, h_d=891, dim F_d=1848, frontier 103, 0.1s
+  n=11 p=3460799 d=6: candidates 377, h_d=198, dim F_d=2046, frontier 36, 0.0s
+  n=11 p=3460799 d=7: candidates 240, h_d=1, dim F_d=2047, frontier 2, 0.0s
+n=11 p=3460799: H = [1, 11, 65, 253, 627, 891, 198, 1]  (sum 2047 = 2^n - 1, 0.2s)
+  n=11 p=3460733 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=11 p=3460733 d=1: candidates 1, h_d=11, dim F_d=12, frontier 1, 0.0s
+  n=11 p=3460733 d=2: candidates 6, h_d=65, dim F_d=77, frontier 6, 0.0s
+  n=11 p=3460733 d=3: candidates 25, h_d=253, dim F_d=330, frontier 25, 0.0s
+  n=11 p=3460733 d=4: candidates 80, h_d=627, dim F_d=957, frontier 65, 0.0s
+  n=11 p=3460733 d=5: candidates 204, h_d=891, dim F_d=1848, frontier 103, 0.1s
+  n=11 p=3460733 d=6: candidates 377, h_d=198, dim F_d=2046, frontier 36, 0.0s
+  n=11 p=3460733 d=7: candidates 240, h_d=1, dim F_d=2047, frontier 2, 0.0s
+n=11 p=3460733: H = [1, 11, 65, 253, 627, 891, 198, 1]  (sum 2047 = 2^n - 1, 0.2s)
+  n=12 p=2529253 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=12 p=2529253 d=1: candidates 1, h_d=12, dim F_d=13, frontier 1, 0.0s
+  n=12 p=2529253 d=2: candidates 7, h_d=77, dim F_d=90, frontier 7, 0.0s
+  n=12 p=2529253 d=3: candidates 30, h_d=328, dim F_d=418, frontier 29, 0.0s
+  n=12 p=2529253 d=4: candidates 103, h_d=921, dim F_d=1339, frontier 87, 0.2s
+  n=12 p=2529253 d=5: candidates 283, h_d=1620, dim F_d=2959, frontier 159, 0.4s
+  n=12 p=2529253 d=6: candidates 594, h_d=1103, dim F_d=4062, frontier 147, 0.2s
+  n=12 p=2529253 d=7: candidates 745, h_d=33, dim F_d=4095, frontier 8, 0.1s
+n=12 p=2529253: H = [1, 12, 77, 328, 921, 1620, 1103, 33]  (sum 4095 = 2^n - 1, 0.9s)
+  n=12 p=2529229 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=12 p=2529229 d=1: candidates 1, h_d=12, dim F_d=13, frontier 1, 0.0s
+  n=12 p=2529229 d=2: candidates 7, h_d=77, dim F_d=90, frontier 7, 0.0s
+  n=12 p=2529229 d=3: candidates 30, h_d=328, dim F_d=418, frontier 29, 0.0s
+  n=12 p=2529229 d=4: candidates 103, h_d=921, dim F_d=1339, frontier 87, 0.2s
+  n=12 p=2529229 d=5: candidates 283, h_d=1620, dim F_d=2959, frontier 159, 0.3s
+  n=12 p=2529229 d=6: candidates 594, h_d=1103, dim F_d=4062, frontier 147, 0.2s
+  n=12 p=2529229 d=7: candidates 745, h_d=33, dim F_d=4095, frontier 8, 0.1s
+n=12 p=2529229: H = [1, 12, 77, 328, 921, 1620, 1103, 33]  (sum 4095 = 2^n - 1, 0.9s)
+  n=13 p=1887419 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=13 p=1887419 d=1: candidates 1, h_d=13, dim F_d=14, frontier 1, 0.0s
+  n=13 p=1887419 d=2: candidates 7, h_d=90, dim F_d=104, frontier 7, 0.0s
+  n=13 p=1887419 d=3: candidates 34, h_d=416, dim F_d=520, frontier 34, 0.0s
+  n=13 p=1887419 d=4: candidates 127, h_d=1300, dim F_d=1820, frontier 109, 0.7s
+  n=13 p=1887419 d=5: candidates 382, h_d=2691, dim F_d=4511, frontier 241, 1.1s
+  n=13 p=1887419 d=6: candidates 899, h_d=3159, dim F_d=7670, frontier 311, 1.2s
+  n=13 p=1887419 d=7: candidates 1442, h_d=520, dim F_d=8190, frontier 80, 0.6s
+  n=13 p=1887419 d=8: candidates 647, h_d=1, dim F_d=8191, frontier 2, 0.1s
+n=13 p=1887419: H = [1, 13, 90, 416, 1300, 2691, 3159, 520, 1]  (sum 8191 = 2^n - 1, 3.7s)
+  n=13 p=1887341 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=13 p=1887341 d=1: candidates 1, h_d=13, dim F_d=14, frontier 1, 0.0s
+  n=13 p=1887341 d=2: candidates 7, h_d=90, dim F_d=104, frontier 7, 0.0s
+  n=13 p=1887341 d=3: candidates 34, h_d=416, dim F_d=520, frontier 34, 0.1s
+  n=13 p=1887341 d=4: candidates 127, h_d=1300, dim F_d=1820, frontier 109, 0.6s
+  n=13 p=1887341 d=5: candidates 382, h_d=2691, dim F_d=4511, frontier 241, 1.0s
+  n=13 p=1887341 d=6: candidates 899, h_d=3159, dim F_d=7670, frontier 311, 0.9s
+  n=13 p=1887341 d=7: candidates 1442, h_d=520, dim F_d=8190, frontier 80, 0.6s
+  n=13 p=1887341 d=8: candidates 647, h_d=1, dim F_d=8191, frontier 2, 0.1s
+n=13 p=1887341: H = [1, 13, 90, 416, 1300, 2691, 3159, 520, 1]  (sum 8191 = 2^n - 1, 3.2s)
+  n=14 p=1380233 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=14 p=1380233 d=1: candidates 1, h_d=14, dim F_d=15, frontier 1, 0.0s
+  n=14 p=1380233 d=2: candidates 8, h_d=104, dim F_d=119, frontier 8, 0.0s
+  n=14 p=1380233 d=3: candidates 39, h_d=518, dim F_d=637, frontier 38, 0.1s
+  n=14 p=1380233 d=4: candidates 157, h_d=1778, dim F_d=2415, frontier 139, 1.6s
+  n=14 p=1380233 d=5: candidates 504, h_d=4200, dim F_d=6615, frontier 339, 3.6s
+  n=14 p=1380233 d=6: candidates 1296, h_d=6237, dim F_d=12852, frontier 549, 3.9s
+  n=14 p=1380233 d=7: candidates 2447, h_d=3466, dim F_d=16318, frontier 385, 2.7s
+  n=14 p=1380233 d=8: candidates 2468, h_d=65, dim F_d=16383, frontier 10, 1.3s
+n=14 p=1380233: H = [1, 14, 104, 518, 1778, 4200, 6237, 3466, 65]  (sum 16383 = 2^n - 1, 13.3s)
+  n=14 p=1380163 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=14 p=1380163 d=1: candidates 1, h_d=14, dim F_d=15, frontier 1, 0.0s
+  n=14 p=1380163 d=2: candidates 8, h_d=104, dim F_d=119, frontier 8, 0.0s
+  n=14 p=1380163 d=3: candidates 39, h_d=518, dim F_d=637, frontier 38, 0.1s
+  n=14 p=1380163 d=4: candidates 157, h_d=1778, dim F_d=2415, frontier 139, 1.5s
+  n=14 p=1380163 d=5: candidates 504, h_d=4200, dim F_d=6615, frontier 339, 3.5s
+  n=14 p=1380163 d=6: candidates 1296, h_d=6237, dim F_d=12852, frontier 549, 3.8s
+  n=14 p=1380163 d=7: candidates 2447, h_d=3466, dim F_d=16318, frontier 385, 3.2s
+  n=14 p=1380163 d=8: candidates 2468, h_d=65, dim F_d=16383, frontier 10, 1.4s
+n=14 p=1380163: H = [1, 14, 104, 518, 1778, 4200, 6237, 3466, 65]  (sum 16383 = 2^n - 1, 13.7s)
+  n=15 p=1013431 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=15 p=1013431 d=1: candidates 1, h_d=15, dim F_d=16, frontier 1, 0.0s
+  n=15 p=1013431 d=2: candidates 8, h_d=119, dim F_d=135, frontier 8, 0.0s
+  n=15 p=1013431 d=3: candidates 45, h_d=635, dim F_d=770, frontier 45, 0.1s
+  n=15 p=1013431 d=4: candidates 189, h_d=2370, dim F_d=3140, frontier 169, 2.8s
+  n=15 p=1013431 d=5: candidates 653, h_d=6258, dim F_d=9398, frontier 472, 7.5s
+  n=15 p=1013431 d=6: candidates 1822, h_d=11070, dim F_d=20468, frontier 885, 13.1s
+  n=15 p=1013431 d=7: candidates 3896, h_d=10935, dim F_d=31403, frontier 952, 13.0s
+  n=15 p=1013431 d=8: candidates 5377, h_d=1363, dim F_d=32766, frontier 182, 5.3s
+  n=15 p=1013431 d=9: candidates 1746, h_d=1, dim F_d=32767, frontier 2, 1.0s
+n=15 p=1013431: H = [1, 15, 119, 635, 2370, 6258, 11070, 10935, 1363, 1]  (sum 32767 = 2^n - 1, 43.1s)
+  n=15 p=1013401 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=15 p=1013401 d=1: candidates 1, h_d=15, dim F_d=16, frontier 1, 0.0s
+  n=15 p=1013401 d=2: candidates 8, h_d=119, dim F_d=135, frontier 8, 0.0s
+  n=15 p=1013401 d=3: candidates 45, h_d=635, dim F_d=770, frontier 45, 0.1s
+  n=15 p=1013401 d=4: candidates 189, h_d=2370, dim F_d=3140, frontier 169, 2.3s
+  n=15 p=1013401 d=5: candidates 653, h_d=6258, dim F_d=9398, frontier 472, 8.4s
+  n=15 p=1013401 d=6: candidates 1822, h_d=11070, dim F_d=20468, frontier 885, 13.1s
+  n=15 p=1013401 d=7: candidates 3896, h_d=10935, dim F_d=31403, frontier 952, 5.1s
+  n=15 p=1013401 d=8: candidates 5377, h_d=1363, dim F_d=32766, frontier 182, 2.3s
+  n=15 p=1013401 d=9: candidates 1746, h_d=1, dim F_d=32767, frontier 2, 0.6s
+n=15 p=1013401: H = [1, 15, 119, 635, 2370, 6258, 11070, 10935, 1363, 1]  (sum 32767 = 2^n - 1, 32.0s)
+  n=16 p=739649 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=16 p=739649 d=1: candidates 1, h_d=16, dim F_d=17, frontier 1, 0.0s
+  n=16 p=739649 d=2: candidates 9, h_d=135, dim F_d=152, frontier 9, 0.0s
+  n=16 p=739649 d=3: candidates 50, h_d=768, dim F_d=920, frontier 49, 0.5s
+  n=16 p=739649 d=4: candidates 228, h_d=3092, dim F_d=4012, frontier 207, 2.6s
+  n=16 p=739649 d=5: candidates 830, h_d=8992, dim F_d=13004, frontier 619, 10.5s
+  n=16 p=739649 d=6: candidates 2481, h_d=18288, dim F_d=31292, frontier 1333, 41.9s
+  n=16 p=739649 d=7: candidates 5841, h_d=23328, dim F_d=54620, frontier 1816, 63.3s
+  n=16 p=739649 d=8: candidates 9756, h_d=10786, dim F_d=65406, frontier 1065, 41.7s
+  n=16 p=739649 d=9: candidates 8129, h_d=129, dim F_d=65535, frontier 20, 8.9s
+n=16 p=739649: H = [1, 16, 135, 768, 3092, 8992, 18288, 23328, 10786, 129]  (sum 65535 = 2^n - 1, 169.7s)
+  n=16 p=739633 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=16 p=739633 d=1: candidates 1, h_d=16, dim F_d=17, frontier 1, 0.0s
+  n=16 p=739633 d=2: candidates 9, h_d=135, dim F_d=152, frontier 9, 0.0s
+  n=16 p=739633 d=3: candidates 50, h_d=768, dim F_d=920, frontier 49, 0.8s
+  n=16 p=739633 d=4: candidates 228, h_d=3092, dim F_d=4012, frontier 207, 4.5s
+  n=16 p=739633 d=5: candidates 830, h_d=8992, dim F_d=13004, frontier 619, 16.4s
+  n=16 p=739633 d=6: candidates 2481, h_d=18288, dim F_d=31292, frontier 1333, 39.3s
+  n=16 p=739633 d=7: candidates 5841, h_d=23328, dim F_d=54620, frontier 1816, 65.5s
+  n=16 p=739633 d=8: candidates 9756, h_d=10786, dim F_d=65406, frontier 1065, 43.2s
+  n=16 p=739633 d=9: candidates 8129, h_d=129, dim F_d=65535, frontier 20, 9.4s
+n=16 p=739633: H = [1, 16, 135, 768, 3092, 8992, 18288, 23328, 10786, 129]  (sum 65535 = 2^n - 1, 179.3s)
+  n=17 p=539921 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=17 p=539921 d=1: candidates 1, h_d=17, dim F_d=18, frontier 1, 0.0s
+  n=17 p=539921 d=2: candidates 9, h_d=152, dim F_d=170, frontier 9, 0.1s
+  n=17 p=539921 d=3: candidates 56, h_d=918, dim F_d=1088, frontier 56, 2.0s
+  n=17 p=539921 d=4: candidates 268, h_d=3961, dim F_d=5049, frontier 246, 14.2s
+  n=17 p=539921 d=5: candidates 1041, h_d=12546, dim F_d=17595, frontier 808, 45.1s
+  n=17 p=539921 d=6: candidates 3321, h_d=28662, dim F_d=46257, frontier 1936, 205.4s
+  n=17 p=539921 d=7: candidates 8529, h_d=44064, dim F_d=90321, frontier 3162, 415.3s
+  n=17 p=539921 d=8: candidates 16418, h_d=37179, dim F_d=127500, frontier 2921, 368.2s
+  n=17 p=539921 d=9: candidates 19576, h_d=3570, dim F_d=131070, frontier 404, 159.2s
+  n=17 p=539921 d=10: candidates 4487, h_d=1, dim F_d=131071, frontier 2, 36.3s
+n=17 p=539921: H = [1, 17, 152, 918, 3961, 12546, 28662, 44064, 37179, 3570, 1]  (sum 131071 = 2^n - 1, 1246.2s)
+  n=17 p=539479 d=0: candidates 1, h_d=1, dim F_d=1, frontier 1, 0.0s
+  n=17 p=539479 d=1: candidates 1, h_d=17, dim F_d=18, frontier 1, 0.0s
+  n=17 p=539479 d=2: candidates 9, h_d=152, dim F_d=170, frontier 9, 0.1s
+  n=17 p=539479 d=3: candidates 56, h_d=918, dim F_d=1088, frontier 56, 2.0s
+  n=17 p=539479 d=4: candidates 268, h_d=3961, dim F_d=5049, frontier 246, 13.4s
+  n=17 p=539479 d=5: candidates 1041, h_d=12546, dim F_d=17595, frontier 808, 45.7s
+  n=17 p=539479 d=6: candidates 3321, h_d=28662, dim F_d=46257, frontier 1936, 163.6s
+  n=17 p=539479 d=7: candidates 8529, h_d=44064, dim F_d=90321, frontier 3162, 407.5s
+  n=17 p=539479 d=8: candidates 16418, h_d=37179, dim F_d=127500, frontier 2921, 329.9s
+  n=17 p=539479 d=9: candidates 19576, h_d=3570, dim F_d=131070, frontier 404, 234.3s
+  n=17 p=539479 d=10: candidates 4487, h_d=1, dim F_d=131071, frontier 2, 44.1s
+n=17 p=539479: H = [1, 17, 152, 918, 3961, 12546, 28662, 44064, 37179, 3570, 1]  (sum 131071 = 2^n - 1, 1240.8s)

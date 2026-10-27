@@ -1,0 +1,194 @@
+{
+  "normalization": "f(u)=u+alpha*u^2+beta*u^3+gamma*u^4; higher coefficients are irrelevant for these graphs",
+  "G8": [
+    {
+      "condition": "alpha=beta=0",
+      "H": [
+        1,
+        7,
+        24,
+        50,
+        66,
+        55,
+        28,
+        8,
+        1
+      ]
+    },
+    {
+      "condition": "alpha=0,beta!=0",
+      "H": [
+        1,
+        8,
+        32,
+        72,
+        81,
+        40,
+        6
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta=2*alpha^2",
+      "H": [
+        1,
+        8,
+        31,
+        77,
+        111,
+        12
+      ]
+    },
+    {
+      "condition": "alpha!=0,3*beta=2*alpha^2",
+      "H": [
+        1,
+        8,
+        32,
+        84,
+        107,
+        8
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta!=2*alpha^2,3*beta!=2*alpha^2",
+      "H": [
+        1,
+        8,
+        32,
+        84,
+        111,
+        4
+      ]
+    }
+  ],
+  "T1": [
+    {
+      "condition": "alpha=beta=gamma=0",
+      "H": [
+        1,
+        9,
+        36,
+        84,
+        126,
+        126,
+        84,
+        36,
+        9,
+        1
+      ]
+    },
+    {
+      "condition": "alpha=beta=0,gamma!=0",
+      "H": [
+        1,
+        10,
+        41,
+        94,
+        135,
+        126,
+        75,
+        26,
+        4
+      ]
+    },
+    {
+      "condition": "alpha=0,beta!=0",
+      "H": [
+        1,
+        10,
+        47,
+        115,
+        157,
+        122,
+        51,
+        9
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta!=2*alpha^2",
+      "H": [
+        1,
+        10,
+        48,
+        143,
+        229,
+        81
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta=2*alpha^2,gamma!=5*alpha^3",
+      "H": [
+        1,
+        10,
+        48,
+        138,
+        225,
+        90
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta=2*alpha^2,gamma=5*alpha^3",
+      "H": [
+        1,
+        10,
+        47,
+        134,
+        220,
+        100
+      ]
+    }
+  ],
+  "T2": [
+    {
+      "condition": "alpha=beta=0",
+      "H": [
+        1,
+        9,
+        36,
+        84,
+        126,
+        126,
+        84,
+        36,
+        9,
+        1
+      ]
+    },
+    {
+      "condition": "alpha=0,beta!=0",
+      "H": [
+        1,
+        10,
+        44,
+        106,
+        150,
+        126,
+        60,
+        14,
+        1
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta=2*alpha^2",
+      "H": [
+        1,
+        10,
+        48,
+        138,
+        234,
+        81
+      ]
+    },
+    {
+      "condition": "alpha!=0,beta!=2*alpha^2",
+      "H": [
+        1,
+        10,
+        49,
+        146,
+        225,
+        81
+      ]
+    }
+  ]
+}

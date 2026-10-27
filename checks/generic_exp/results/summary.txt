@@ -1,0 +1,8 @@
+simple graphs with at most five vertices: 30; exponential exceptional for 10:
+    K23 (Gbip), K5 (GKfi), K5-e (GKme), dart (Gdar), house (Ghou), house X (Ghox), kite (Gkit), lollipop L32 (Glol), lollipop L41 (Gllo), wheel W5 (Gwhe)
+six vertices: exponential smaller for 85 of 112; first difference at h_k: {3: 12, 4: 59, 5: 14}
+   generic for 27: 6 trees, max edges 8; min edges among the others 6; all graphs with >= 9 edges affected: True
+h_2 (non-trees, 4..7 vertices): (series, excluded C4/paw, bound attained) -> {('generic', True, False): 2, ('exp', True, False): 2, ('generic', False, True): 968, ('exp', False, True): 968}
+h_3 (bridgeless, cyclomatic >= 3, not K4): (series, attained) -> {('generic', True): 557, ('exp', True): 555, ('exp', False): 2}
+h_3 outside the hypotheses, bound not attained (generic): {'bridge': 394, 'cycle': 4, 'K4': 2, 'cyclomatic 2': 7, 'cyclomatic 2, attained': 6}
+unimodality: 442 of 442 series unimodal

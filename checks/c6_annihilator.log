@@ -1,0 +1,7 @@
+dim F_3 = 58  dim F_3^perp = 6
+Omega_5 annihilates F_3: True
+phi0+phi1 annihilates F_3: True
+phi2-phi0 annihilates F_3: True
+phi4-phi0 annihilates F_3: True
+phi3-phi1 annihilates F_3: True
+phi5-phi1 annihilates F_3: True

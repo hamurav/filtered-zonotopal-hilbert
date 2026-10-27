@@ -1,0 +1,11 @@
+trees with 2 to 12 vertices: 986
+the recursion of Remark 3.27 equals the enumeration of score vectors for k = 2, 3, 4
+  u^2            Hilbert function = s_k for 986 of 986 trees
+  u^2+u^3        Hilbert function = s_k for 986 of 986 trees
+  u^2-2u^3+5u^4  Hilbert function = s_k for 986 of 986 trees
+  u^3            Hilbert function = s_k for 986 of 986 trees
+  u^3+u^4        Hilbert function = s_k for 986 of 986 trees
+  2u^3-u^5       Hilbert function = s_k for 986 of 986 trees
+  u^4            Hilbert function = s_k for 986 of 986 trees
+  u^4+3u^5       Hilbert function = s_k for 986 of 986 trees
+39s

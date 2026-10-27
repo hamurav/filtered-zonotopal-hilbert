@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code or data, please cite the paper "Hilbert functions of
+  filtered graphical zonotopal algebras" (see preferred-citation).
+title: >-
+  Code and data for "Hilbert functions of filtered graphical zonotopal
+  algebras"
+type: software
+version: "1.0"
+authors:
+  - family-names: Shapiro
+    given-names: Boris
+    affiliation: Stockholm University
+  - family-names: Smirnov
+    given-names: Ilya
+    affiliation: BCAM – Basque Center for Applied Mathematics and IKERBASQUE
+  - family-names: Vaintrob
+    given-names: Arkady
+    affiliation: University of Oregon
+license: MIT
+keywords:
+  - zonotopal algebra
+  - filtered algebra
+  - Hilbert function
+  - graph
+  - computer-assisted proof
+preferred-citation:
+  type: article
+  title: Hilbert functions of filtered graphical zonotopal algebras
+  authors:
+    - family-names: Shapiro
+      given-names: Boris
+    - family-names: Smirnov
+      given-names: Ilya
+    - family-names: Vaintrob
+      given-names: Arkady

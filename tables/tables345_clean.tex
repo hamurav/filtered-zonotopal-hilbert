@@ -1,0 +1,545 @@
+% Clean version, 19 October 2026: the Delta=3 tables give complete cubic profiles
+% (from clean/checks/complete_profiles.py); captions and guidance revised.
+\newcommand{\Gafa}[1]{
+  % D4 with first doubled edge =--
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (a) at (-0.1,0) {};
+    \node[vertex] (b) at (0.8,0) {};
+    \node[vertex] (c) at (1.6,0) {};
+    \node[vertex] (d) at (2.4,0) {};
+    \node (e) at (0,-.5) {};   % empty edge
+    \draw (a) to[out=25,in=155, min distance=.7em] (b);
+    \draw (a) to[out=-25,in=-155, min distance=.7em] (b);
+    \draw (b)--(c)--(d);
+  \end{tikzpicture}}
+
+\newcommand{\Gafb}[1]{
+  % D4 with middle doubled edge -=-
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (a) at (-0.1,0) {};
+    \node[vertex] (b) at (0.7,0) {};
+    \node[vertex] (c) at (1.6,0) {};
+    \node[vertex] (d) at (2.4,0) {};
+    \node (e) at (0,-.5) {};   % empty edge
+    \draw (b) to[out=25,in=155, min distance=.7em] (c);
+    \draw (b) to[out=-25,in=-155, min distance=.7em] (c);
+    \draw (b)--(a) (c)--(d);
+  \end{tikzpicture}}
+
+\newcommand{\Gafc}[1]{
+  % A4 with first and third doubled edges =-=
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (a) at (-0.1,0) {};
+    \node[vertex] (b) at (0.8,0) {};
+    \node[vertex] (c) at (1.6,0) {};
+    \node[vertex] (d) at (2.5,0) {};
+    \node (e) at (0,-.5) {};   % empty edge
+    \draw (a) to[out=25,in=155, min distance=.7em] (b);
+    \draw (a) to[out=-25,in=-155, min distance=.7em] (b);
+    \draw (c) to[out=25,in=155, min distance=.7em] (d);
+    \draw (c) to[out=-25,in=-155, min distance=.7em] (d);
+    \draw (b)--(c);
+  \end{tikzpicture}}
+
+
+\newcommand{\Gppw}[1]{
+  % Paw graph w doubled edge -<||
+  \begin{tikzpicture}[scale=#1]
+    \node[vertex] (d) at (0,0) {};
+    \node[vertex] (a) at (30:.8) {};
+    \node[vertex] (b) at (180:.8) {};
+    \node[vertex] (c) at (-30:.8) {};
+    \draw (b)--(d)--(c) (a)--(d);
+    \draw (a) to[out=-65,in=65, min distance=.6em] (c);
+    \draw (a) to[out=-105,in=115, min distance=.6em] (c);
+\end{tikzpicture}}
+
+
+\newcommand{\Gcfa}[1]{
+  % 4-cycle with a doubled edge  <\geq
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (a) at (0:.8) {};
+    \node[vertex] (b) at (90:.8) {};
+    \node[vertex] (c) at (180:.8) {};
+    \node[vertex] (d) at (-90:.8) {};
+    \node (f) at (90:1.) {};    % empty vertex
+    \draw (b)--(c)--(d)--(a);
+    \draw (a) to[out=120,in=-30, min distance=1.1em] (b);
+    \draw (a) to[out=150,in=-60, min distance=1.1em] (b);
+  \end{tikzpicture}}
+
+\newcommand{\Gcfb}[1]{
+  % 4-cycle with two doubled edges  <\geq
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (a) at (0:.8) {};
+    \node[vertex] (b) at (90:.8) {};
+    \node[vertex] (c) at (180:.8) {};
+    \node[vertex] (d) at (-90:.8) {};
+%   \node (f) at (90:1) {};    % empty vertex
+%    \node (g) at (180:1) {};    % empty vertex
+    \draw (b)--(c) (d)--(a);
+    \draw (a) to[out=120,in=-30, min distance=1.1em] (b);
+    \draw (a) to[out=150,in=-60, min distance=1.1em] (b);
+    \draw (d) to[out=120,in=-30, min distance=1.1em] (c);
+    \draw (d) to[out=150,in=-60, min distance=1.1em] (c);
+  \end{tikzpicture}}
+
+\newcommand{\GDfo}[1]{
+  % D4 tree
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (d) at (0,0) {};
+    \node[vertex] (a) at (60:.8) {};
+    \node[vertex] (b) at (180:.8) {};
+    \node[vertex] (c) at (-60:.8) {};
+    \draw (a)--(d)--(c);
+    \draw (d)--(b);
+  \end{tikzpicture}}
+
+\newcommand{\GPaw}[1]{
+  % Paw graph  -<|
+  \begin{tikzpicture}[scale=#1]
+    \node[vertex] (d) at (0,0) {};
+    \node[vertex] (a) at (30:.8) {};
+    \node[vertex] (b) at (180:.8) {};
+    \node[vertex] (c) at (-30:.8) {};
+    \draw (b)--(d)--(c)--(a)--(d);
+  \end{tikzpicture}}
+
+\newcommand{\GDia}[1]{
+  % Diamond graph = K4-e <|>
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (a) at (0:.8) {};
+    \node[vertex] (b) at (90:.8) {};
+    \node[vertex] (c) at (180:.8) {};
+    \node[vertex] (d) at (-90:.8) {};
+    \node (f) at (90:1) {};    % empty vertex
+    \draw (a)--(b)--(c)--(d)--(a)--(c);
+  \end{tikzpicture}}
+
+\newcommand{\GKfo}[1]{
+  % Complete graph K4
+  \begin{tikzpicture}[scale=#1*.8]
+    \node[vertex] (d) at (0,0) {};
+    \node[vertex] (a) at (60:.8) {};
+    \node[vertex] (b) at (180:.8) {};
+    \node[vertex] (c) at (-60:.8) {};
+    \draw (a)--(b)--(c)--(a)--(d)--(c);
+    \draw (d)--(b);
+    % \node[vertex] (o) at (0:0) {};
+    % \node[vertex] (b) at (90:.8) {};
+    % \node[vertex] (c) at (180:.8) {};
+    % \node[vertex] (d) at (-90:.8) {};
+    % \draw (a)--(b)--(c)--(d)--(a)--(c) (b)--(d);
+  \end{tikzpicture}}
+
+\newcommand{\GDfi}[1]{
+  % D5 tree
+  \begin{tikzpicture}[scale=#1*.8]
+  \node[vertex] (c) at (0,0) {};
+  \node[vertex] (a) at (-.7,0) {};
+  \node[vertex] (b) at (-1.4,0) {};
+  \node[vertex] (r1) at (1.0,.6) {};
+  \node[vertex] (r2) at (1.0,-.6) {};
+  \draw (a)--(b)--(c);
+  \draw (r2)--(c)--(r1);
+\end{tikzpicture}}
+
+\newcommand{\Glol}[1]{
+% Lollipop L_{3,2}  (K3 + path of length 2 attached at one vertex)
+  \begin{tikzpicture}[scale=#1*.8]
+  \node[vertex] (c) at (0,0) {};
+  \node[vertex] (a) at (-.7,0) {};
+  \node[vertex] (b) at (-1.4,0) {};
+  \node[vertex] (r1) at (1.0,.6) {};
+  \node[vertex] (r2) at (1.0,-.6) {};
+  \draw (a)--(b)--(c);
+  \draw (r1)--(r2)--(c)--(r1);
+\end{tikzpicture}
+}
+
+\newcommand{\Gban}[1]{
+  \begin{tikzpicture}[scale=#1*.8]
+% Banner Graph (C4 with a pendant edge)
+\node[vertex] (v1) at (0,0) {};
+\node[vertex] (v2) at (1.4,0) {};
+\node[vertex] (v3) at (.7,.7) {};
+\node[vertex] (v4) at (.7,-.7) {};
+\node[vertex] (p)  at (-.75,0) {};
+\draw (v1)--(v4)--(v2)--(v3)--(v1);
+\draw (v1)--(p);
+\end{tikzpicture}
+}
+
+\newcommand{\Gbul}[1]{
+%  Bull Graph (triangle with two pendant edges on distinct vertices)
+  \begin{tikzpicture}[scale=#1*.8]
+  \node[vertex] (c) at (0,0) {};
+  \node[vertex] (h1) at (1.7,.6) {};
+  \node[vertex] (h2) at (1.7,-.6) {};
+  \node[vertex] (r1) at (1.0,.6) {};
+  \node[vertex] (r2) at (1.0,-.6) {};
+  \draw (h1)--(r1) (h2)--(r2);
+  \draw (r1)--(r2)--(c)--(r1);
+\end{tikzpicture}
+}
+
+\newcommand{\Ghou}[1]{
+  % House Graph
+  \begin{tikzpicture}[scale=#1*.7]
+  \node[vertex] (a) at (45:1) {};
+  \node[vertex] (b) at (135:1) {};
+  \node[vertex] (c) at (-135:1) {};
+  \node[vertex] (d) at (-45:1) {};
+  \node[vertex] (e) at (90:1.5) {};
+  \node (f) at (90:1.8) {};  % empty vertex
+%
+  \draw (a)--(b)--(c)--(d)--(a); % square
+  \draw (a)--(e)--(b);          % roof
+\end{tikzpicture}
+}
+
+\newcommand{\Gkit}[1]{
+% Kite Graph (Diamond K4-e with a pendant vertex)
+  \begin{tikzpicture}[scale=#1*.9]
+  \node[vertex] (v1) at (0,0) {};
+  \node[vertex] (v2) at (1.5,0) {};
+  \node[vertex] (v3) at (.75,.75) {};
+  \node[vertex] (v4) at (.75,-.75) {};
+  \node[vertex] (p)  at (-.75,0) {};
+  \draw (v2)--(v3)--(v1);
+  \draw (v1)--(v4)--(v2)
+  (v3)--(v4);
+  \draw (v1)--(p);
+  % \node at (.6,-1.45) {Kite graph};
+\end{tikzpicture}
+}
+
+\newcommand{\Gbip}[1]{
+% $K_{3,2}$
+  \begin{tikzpicture}[scale=#1*.9]
+  \node[vertex] (v1) at (0,0) {};
+  \node[vertex] (v2) at (1.5,0) {};
+  \node[vertex] (v3) at (.75,.75) {};
+  \node[vertex] (v4) at (.75,-.75) {};
+  \node[vertex] (c)  at (.75,0) {};
+  \draw (v1)--(v3)--(v2)--(v4)--(v1);
+  \draw (v1)--(c)--(v2);
+\end{tikzpicture}
+}
+
+\newcommand{\Gsub}[1]{
+% $K_4$ with a subdivided edge
+  \begin{tikzpicture}[scale=#1*.9]
+    \node[vertex] (v1) at (0,0) {};
+    \node[vertex] (v2) at (1.5,0) {};
+    \node[vertex] (v3) at (.75,.75) {};
+    \node[vertex] (v4) at (.75,-.75) {};
+    \node[vertex] (c)  at (.75,0) {};
+    \draw (v1)--(v3)--(v2)--(v4)--(v1);
+    \draw (v1)--(c)--(v2);
+    \draw (v3)--(c);
+\end{tikzpicture}
+}
+
+\newcommand{\Gsta}[1]{
+% S5 star
+  \begin{tikzpicture}[scale=#1]
+  \node[vertex] (a) at (0,0) {};
+  \node[vertex] (b) at (0.8,0) {};
+  \node[vertex] (c) at (-0.8,0) {};
+  \node[vertex] (d) at (0,0.8) {};
+  \node[vertex] (e) at (0,-0.8) {};
+  \draw (c)--(a)--(b);
+  \draw (d)--(a)--(e);
+%  \node at (0.1,-1.25) {S5 star};
+\end{tikzpicture}
+}
+
+\newcommand{\Gcri}[1]{
+% Cricket Graph
+  \begin{tikzpicture}[scale=#1]
+  \node[vertex] (c) at (0,0) {};
+  \node[vertex] (l1) at (-.7,.4) {};
+  \node[vertex] (l2) at (-.7,-.4) {};
+  \node[vertex] (r1) at (1.0,.6) {};
+  \node[vertex] (r2) at (1.0,-.6) {};
+  \draw (l2)--(c)--(l1);
+  \draw (r1)--(r2)--(c)--(r1);
+\end{tikzpicture}
+}
+
+\newcommand{\Gbut}[1]{
+  % Butterfly Graph |><|
+  \begin{tikzpicture}[scale=#1]
+    \node[vertex] (c) at (0,0) {};
+    \node[vertex] (l1) at (-1.,.6) {};
+    \node[vertex] (l2) at (-1.,-.6) {};
+    \node[vertex] (r1) at (1.,.6) {};
+    \node[vertex] (r2) at (1.,-.6) {};
+    \draw (l1)--(l2)--(c)--(l1);
+    \draw (r1)--(r2)--(c)--(r1);
+    % \node at (0,-.95) {Butterfly Graph};
+  \end{tikzpicture}
+}
+
+\newcommand{\Gdar}[1]{
+  % Dart graph
+  \begin{tikzpicture}[scale=#1]
+    \node[vertex] (v1) at (0,0) {};
+    \node[vertex] (v2) at (1.5,0) {};
+    \node[vertex] (v3) at (.75,.75) {};
+    \node[vertex] (v4) at (.75,-.75) {};
+    \node[vertex] (p)  at (-.75,0) {};
+    \draw (v1)--(v2)--(v3)--(v1);
+    \draw (v1)--(v4)--(v2);
+    \draw (v1)--(p);
+    % \node at (.6,-1.45) {Dart graph};
+  \end{tikzpicture}
+}
+
+\newcommand{\Ggem}[1]{
+  % Gem graph (P_4 + K_1): a 4-vertex path plus a universal vertex
+  \begin{tikzpicture}[scale=#1*1.1]
+     \node[vertex] (v1) at (-36:1.2) {};
+     \node[vertex] (v2) at (-72:1.2) {};
+     \node[vertex] (v3) at (-108:1.2) {};
+     \node[vertex] (v4) at (-144:1.2) {};
+     \node[vertex] (u)  at (0,0) {};
+    \draw (v1)--(v2)--(v3)--(v4);
+    \draw (u)--(v1) (u)--(v2) (u)--(v3) (u)--(v4);
+  \end{tikzpicture}
+}
+
+\newcommand{\GKKK}[1]{
+%  K2+3K1
+    \begin{tikzpicture}[scale=#1*.75]
+      \node[vertex] (v1) at (90:1.1) {};
+      \node[vertex] (v2) at (90:0.3) {};
+      \node[vertex] (v3) at (-45:1.3) {};
+      \node[vertex] (v4) at (-135:1.3) {};
+      \node[vertex] (v5) at (90:-.4) {};
+      \draw   (v1)--(v3) (v1)--(v4)
+      (v2)--(v3) (v2)--(v4)
+      (v3)--(v4) (v3)--(v5) (v4)--(v5);
+      % \node at (0,-1.7) {$K_2+3K_1$};
+    \end{tikzpicture}
+  }
+
+  \newcommand{\Gllo}[1]{
+    % Lollipop L_{4,1}  (K4 with a single pendant vertex)
+    \begin{tikzpicture}[scale=#1*.9]
+    \node[vertex] (v1) at (0,0) {};
+    \node[vertex] (v2) at (.75,0) {};
+    \node[vertex] (v3) at (1.22,.75) {};
+    \node[vertex] (v4) at (1.22,-.75) {};
+    \node[vertex] (p)  at (-.75,0) {};
+    \draw (v1)--(v2)--(v3)--(v1);
+    \draw (v1)--(v4)--(v2) (v3)--(v4);
+    \draw (v1)--(p);
+  \end{tikzpicture}
+}
+
+\newcommand{\Gwhe}[1]{
+  % Wheel graph W_5  (C4 plus a hub)
+  \begin{tikzpicture}[scale=#1]
+    \node[vertex] (v1) at (0,0) {};
+    \node[vertex] (v2) at (1.5,0) {};
+    \node[vertex] (v3) at (.75,.75) {};
+    \node[vertex] (v4) at (.75,-.75) {};
+    \node[vertex] (c)  at (.75,0) {};
+    \draw (v1)--(v3)--(v2)--(v4)--(v1);
+    \draw (v1)--(c)--(v3);
+    \draw (v2)--(c)--(v4);
+  \end{tikzpicture}
+}
+
+\newcommand{\Ghox}[1]{
+  % House X Graph (house with both diagonals in the square)
+  \begin{tikzpicture}[scale=#1*0.75]
+    \node[vertex] (v1) at (90:1.1) {};
+    \node[vertex] (v2) at (10:1.) {};
+    \node[vertex] (v3) at (-90:1.1) {};
+    \node[vertex] (v4) at (-90:.38) {};
+    \node[vertex] (v5) at (170:1.) {};
+    \draw (v1)--(v2)--(v3)--(v4)--(v5)--(v1)
+    (v2)--(v4) (v2)--(v5)
+    (v3)--(v5);
+  \end{tikzpicture}
+}
+
+\newcommand{\GKme}[1]{
+%  K5-e
+  \begin{tikzpicture}[scale=#1*.75]
+    \node[vertex] (v1) at (90:1.1) {};
+    \node[vertex] (v2) at (90:0.3) {};
+    \node[vertex] (v3) at (-45:1.3) {};
+    \node[vertex] (v4) at (-135:1.3) {};
+    \node[vertex] (v5) at (90:-.4) {};
+    \draw (v1)--(v2)
+    (v1)--(v3) (v1)--(v4) (v1)--(v5)
+    (v2)--(v3) (v2)--(v4)
+    (v3)--(v4) (v3)--(v5)
+    (v4)--(v5);
+    % \node at (0,-1.7) {$K_3+2K_1=K_{5}-e$};
+  \end{tikzpicture}
+}
+
+\newcommand{\GKfi}[1]{
+  % Complete graph K_5
+  \begin{tikzpicture}[scale=#1*0.8]
+    \node[vertex] (v1) at (90:1.) {};
+    \node[vertex] (v2) at (18:1.) {};
+    \node[vertex] (v3) at (-54:1.) {};
+    \node[vertex] (v4) at (-126:1.) {};
+    \node[vertex] (v5) at (162:1.) {};
+    \draw (v1)--(v2) (v1)--(v3) (v1)--(v4) (v1)--(v5)
+    (v2)--(v3) (v2)--(v4) (v2)--(v5)
+    (v3)--(v4) (v3)--(v5)
+    (v4)--(v5);
+  \end{tikzpicture}
+}
+
+
+
+
+\subsubsection{Graphs with four or five vertices and maximum degree three}
+
+Tables~\ref{tab:small-simple4}--\ref{tab:small-simple5} give the
+complete Hilbert profile of each displayed graph on the cubic parameter
+plane (Remark~\ref{rem:small-complete-profiles}). Every
+$f=u+\alpha u^2+\beta u^3$ has one of the five listed series: the first
+two columns cover $\alpha=0$ (after scaling, $f=u$ or $f=u+u^3$), the
+third is the generic value for $\alpha\ne0$, and the last two are the
+values on the parabolas $\beta=2\alpha^2$ (inverse quadratics) and
+$3\beta=2\alpha^2$ (exponential jets). Entries that differ from the
+generic column are in bold; no other value of $\beta/\alpha^2$ is
+exceptional for these graphs. Each entry lists $(h_0,\ldots,h_s)$ for
+$\hs_G^f=\sum h_it^i$.
+
+\begin{table}[p]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{@{}>{\centering\arraybackslash}m{1.75cm}*{5}{>{\centering\arraybackslash}m{2.85cm}}@{}}
+\toprule
+$G$ & $u$ & $u+u^3$ & $u+u^2$ & $u+u^2+2u^3$ & $u+\frac{u^2}{2}+\frac{u^3}{6}$ \\ \midrule
+
+\GDfo{.52} & \begin{tabular}{@{}c@{}}$(1,3,3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,3)$\end{tabular} \\[3pt]
+
+\GPaw{.52} & \begin{tabular}{@{}c@{}}$(1,3,5,4,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,6,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7,2)$\end{tabular} \\[3pt]
+
+\GDia{.52} & \begin{tabular}{@{}c@{}}$(1,3,6,8,5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,8,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,9)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,9,10)}$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,9)$\end{tabular} \\[3pt]
+
+\GKfo{.52} & \begin{tabular}{@{}c@{}}$(1,3,6,10,11,$\\$6,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,12,8,$\\$3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,14,5,$\\$3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,9,15,5,}$\\$\mathbf{3,1)}$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,14,5,$\\$3,1)$\end{tabular} \\[3pt]
+
+\bottomrule\end{tabular}
+\caption{Complete cubic Hilbert profiles of the connected simple graphs with four vertices and $\Delta=3$.}\label{tab:small-simple4}
+\end{table}
+
+\begin{table}[p]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{@{}>{\centering\arraybackslash}m{1.75cm}*{5}{>{\centering\arraybackslash}m{2.85cm}}@{}}
+\toprule
+$G$ & $u$ & $u+u^3$ & $u+u^2$ & $u+u^2+2u^3$ & $u+\frac{u^2}{2}+\frac{u^3}{6}$ \\ \midrule
+
+\Gafa{.52} & \begin{tabular}{@{}c@{}}$(1,3,4,3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,5,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7)$\end{tabular} \\[3pt]
+
+\Gafb{.52} & \begin{tabular}{@{}c@{}}$(1,3,4,3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,5,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7)$\end{tabular} \\[3pt]
+
+\Gafc{.52} & \begin{tabular}{@{}c@{}}$(1,3,5,5,3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,7,5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,4)$\end{tabular} \\[3pt]
+
+\Gppw{.52} & \begin{tabular}{@{}c@{}}$(1,3,5,6,4,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,8,6,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,6)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,8,7)}$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,9,6)$\end{tabular} \\[3pt]
+
+\Gcfa{.52} & \begin{tabular}{@{}c@{}}$(1,3,6,7,4,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,8,7,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,9,8)}$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,9,8)}$\end{tabular} \\[3pt]
+
+\Gcfb{.52} & \begin{tabular}{@{}c@{}}$(1,3,6,9,8,$\\$4,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,11,5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,4,10,15,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,9,15,3)}$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,4,10,14,3)}$\end{tabular} \\[3pt]
+
+\bottomrule\end{tabular}
+\caption{Complete cubic Hilbert profiles of connected multigraphs with four vertices and $\Delta=3$.}\label{tab:small-multi4}
+\end{table}
+
+\begin{table}[p]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.18}
+\begin{tabular}{@{}>{\centering\arraybackslash}m{1.75cm}*{5}{>{\centering\arraybackslash}m{2.85cm}}@{}}
+\toprule
+$G$ & $u$ & $u+u^3$ & $u+u^2$ & $u+u^2+2u^3$ & $u+\frac{u^2}{2}+\frac{u^3}{6}$ \\ \midrule
+
+\GDfi{.52} & \begin{tabular}{@{}c@{}}$(1,4,6,4,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,7,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} \\[3pt]
+
+\Gban{.52} & \begin{tabular}{@{}c@{}}$(1,4,9,10,5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,11,10,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,9,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,13,10,1)}$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,9,1)$\end{tabular} \\[3pt]
+
+\Gbul{.52} & \begin{tabular}{@{}c@{}}$(1,4,8,9,5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,12,9,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,9)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,12,10)}$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,9)$\end{tabular} \\[3pt]
+
+\Glol{.52} & \begin{tabular}{@{}c@{}}$(1,4,8,9,5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10,9,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,12,8,2)}$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,13,7,2)}$\end{tabular} \\[3pt]
+
+\Gbip{.52} & \begin{tabular}{@{}c@{}}$(1,4,10,17,15,$\\$6,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,22,11)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,26,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,14,25,9)}$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,15,24,9)}$\end{tabular} \\[3pt]
+
+\Gkit{.52} & \begin{tabular}{@{}c@{}}$(1,4,9,14,13,$\\$6,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,19,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,23,5)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,13,21,8)}$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,14,22,6)}$\end{tabular} \\[3pt]
+
+\Ghou{.52} & \begin{tabular}{@{}c@{}}$(1,4,10,16,14,$\\$6,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,20,11,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,26,5)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,14,23,9)}$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,15,24,7)}$\end{tabular} \\[3pt]
+
+\Gsub{.52} & \begin{tabular}{@{}c@{}}$(1,4,10,19,25,$\\$19,7,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,29,26,$\\$9,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28,$\\$3,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$\mathbf{(1,5,14,29,33,}$\\$\mathbf{3,1)}$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28,$\\$3,1)$\end{tabular} \\[3pt]
+
+\bottomrule\end{tabular}
+\caption{Complete cubic Hilbert profiles of the connected simple graphs with five vertices and $\Delta=3$.}\label{tab:small-simple5}
+\end{table}
+
+
+\subsubsection{Simple graphs with five vertices and maximum degree four}
+
+Table~\ref{tab:5v-4d} records the Hilbert functions at nine parameters
+for each displayed graph. The columns $f_2,f_5,f_6,f_8,f_9$ lie in the
+generic cell of Theorem~\ref{thm:D4-strata} and agree for every graph
+in the table, while $f_7=u+u^2+u^3$ lies on $[u^4]f^{-1}=0$ (cell~7) and
+differs from them for seven of the eleven graphs. The columns $f_1,f_3,f_4$
+have $\alpha=0$. Unlike the previous tables, these columns are not shown
+to exhaust the Hilbert strata of these graphs.
+
+\begin{sidewaystable}[p]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}>{\centering\arraybackslash}m{1.65cm}*{9}{>{\centering\arraybackslash}m{2.14cm}}@{}}
+\toprule
+$G$ & $f_1$ & $f_2$ & $f_3$ & $f_4$ & $f_5$ & $f_6$ & $f_7$ & $f_8$ & $f_9$ \\ \midrule
+
+\Gsta{.45} & \begin{tabular}{@{}c@{}}$(1,5,6,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,7,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,7,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10)$\end{tabular} \\[2pt]
+
+\Gcri{.45} & \begin{tabular}{@{}c@{}}$(1,5,9,9,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10,9,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,10,9,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,8,1)$\end{tabular} \\[2pt]
+
+\Gbut{.45} & \begin{tabular}{@{}c@{}}$(1,5,12,15,12,$\\$4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,21,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,16,11,$\\$3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,13,16,11,$\\$3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,21,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,21,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,21,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,21,7)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,21,7)$\end{tabular} \\[2pt]
+
+\Gdar{.45} & \begin{tabular}{@{}c@{}}$(1,5,11,15,12,$\\$4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,19,9)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,20,8)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,3)$\end{tabular} \\[2pt]
+
+\Ggem{.45} & \begin{tabular}{@{}c@{}}$(1,5,13,21,23,$\\$15,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,28,25,$\\$8)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,29,27,$\\$5)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,29)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,28)$\end{tabular} \\[2pt]
+
+\GKKK{.45} & \begin{tabular}{@{}c@{}}$(1,5,14,23,23,$\\$14,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,26,25,$\\$9)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,27,25,$\\$8)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,31,29)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,28)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,28)$\end{tabular} \\[2pt]
+
+\Gllo{.45} & \begin{tabular}{@{}c@{}}$(1,5,11,19,21,$\\$15,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,29,21,$\\$5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,24,22,$\\$9,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,25,23,$\\$7,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,29,21,$\\$5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,29,21,$\\$5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,28,22,$\\$5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,29,21,$\\$5,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,14,29,21,$\\$5,1)$\end{tabular} \\[2pt]
+
+\Gwhe{.45} & \begin{tabular}{@{}c@{}}$(1,5,13,26,34,$\\$33,18,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,56,$\\$18,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,45,$\\$29,6)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,47,$\\$28,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,56,$\\$18,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,56,$\\$18,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,56,$\\$19,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,56,$\\$18,4)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,56,$\\$18,4)$\end{tabular} \\[2pt]
+
+\Ghox{.45} & \begin{tabular}{@{}c@{}}$(1,5,14,27,35,$\\$30,15,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,53,$\\$19,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,31,43,$\\$28,5)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,32,47,$\\$25,3)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,53,$\\$19,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,53,$\\$19,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,52,$\\$21,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,53,$\\$19,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,53,$\\$19,1)$\end{tabular} \\[2pt]
+
+\GKme{.45} & \begin{tabular}{@{}c@{}}$(1,5,14,30,48,$\\$50,37,13)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,65,$\\$64,13)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,55,$\\$59,28,2)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,58,$\\$64,20,1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,65,$\\$64,13)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,65,$\\$64,13)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,62,$\\$68,13)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,65,$\\$64,13)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,65,$\\$64,13)$\end{tabular} \\[2pt]
+
+\GKfi{.45} & \begin{tabular}{@{}c@{}}$(1,5,14,30,53,$\\$73,60,41,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,67,$\\$91,48,15,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,33,60,$\\$76,60,27,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,63,$\\$82,56,21,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,67,$\\$91,48,15,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,67,$\\$91,48,15,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,34,64,$\\$90,53,15,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,67,$\\$91,48,15,9,4,$\\$1)$\end{tabular} & \begin{tabular}{@{}c@{}}$(1,5,15,35,67,$\\$91,48,15,9,4,$\\$1)$\end{tabular} \\[2pt]
+
+\bottomrule\end{tabular}
+\medskip
+\begin{gather*}
+f_1=u+u^4,\quad f_2=u+u^2,\quad f_3=u+u^3,\quad
+f_4=u+u^3+u^4,\quad f_5=u+u^2+u^4,\\
+f_6=u+\tfrac12u^2+\tfrac13u^3,\quad f_7=u+u^2+u^3,\quad
+f_8=u+\tfrac12u^2+\tfrac13u^3+\tfrac14u^4,\quad
+f_9=u+u^2+u^3+u^4.
+\end{gather*}
+\caption{Exact Hilbert functions for connected simple graphs with five
+vertices and $\Delta=4$, for the nine indicated generating functions.}
+\label{tab:5v-4d}
+\end{sidewaystable}
+\clearpage

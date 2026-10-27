@@ -1,0 +1,26 @@
+ok   L(tr_n) = 0 for 3 <= n <= 40 (characteristic polynomial z^3 - z^2 - 3tz + 2t)
+ok   tr_0 = 3, tr_1 = 1, tr_2 = 1 + 6t
+ok   deg tr_n <= floor(n/2) for n <= 40
+ok   tr_n(1) = 2^n + (-1)^n l_n for 1 <= n <= 40
+ok   [t^j] tr_n = 1, n, C(n+1,2), C(n+2,3) - 3n (j <= 3) for 7 <= n <= 40
+ok   Remark 7.10: L(b_n) for 6 <= n <= 40
+ok   Proposition 7.7: tr M_w(t)^n = sum_S w^c(S) t^|S| for 3 <= n <= 18
+cycle data for n = 3..17 from results/cycle_series.json
+ok   no gaps in the data
+ok   initial values H_3, H_4, H_5 of Proposition 7.9
+ok   n=3: total 2^n-1, Thm 7.3, Conj 7.8 (mod t^2), (7.29)/(7.30)
+ok   n=4: total 2^n-1, Thm 7.3, Conj 7.8 (mod t^2), (7.29)/(7.30)
+ok   n=5: total 2^n-1, Thm 7.3, Conj 7.8 (mod t^3), (7.29)/(7.30)
+ok   n=6: total 2^n-1, Thm 7.3, Conj 7.8 (mod t^3), (7.29)/(7.30), (7.28)
+ok   n=7: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^4), (7.29)/(7.30), (7.28)
+ok   n=8: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^4), (7.29)/(7.30), (7.28)
+ok   n=9: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^5), (7.29)/(7.30), (7.28)
+ok   n=10: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^5), (7.29)/(7.30), (7.28)
+ok   n=11: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^6), (7.29)/(7.30), (7.28)
+ok   n=12: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^6), (7.29)/(7.30), (7.28)
+ok   n=13: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^7), (7.29)/(7.30), (7.28)
+ok   n=14: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^7), (7.29)/(7.30), (7.28)
+ok   n=15: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^8), (7.29)/(7.30), (7.28)
+ok   n=16: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^8), (7.29)/(7.30), (7.28)
+ok   n=17: total 2^n-1, Thm 7.1, Thm 7.3, Conj 7.8 (mod t^9), (7.29)/(7.30), (7.28)
+all checks passed

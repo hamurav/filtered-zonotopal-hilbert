@@ -1,0 +1,12 @@
+{
+  "title": "Code and data for \"Hilbert functions of filtered graphical zonotopal algebras\"",
+  "upload_type": "software",
+  "description": "Programs and recorded output behind the computer-assisted statements of the paper \"Hilbert functions of filtered graphical zonotopal algebras\" by B. Shapiro, I. Smirnov and A. Vaintrob: exact parameter certificates, exhaustive searches over small trees and unicyclic graphs, the tables of Hilbert functions of small graphs, the cycle series for n up to 17, and the certificate for the low-degree conjecture on graphs with at most seven vertices.",
+  "creators": [
+    {"name": "Shapiro, Boris", "affiliation": "Stockholm University"},
+    {"name": "Smirnov, Ilya", "affiliation": "BCAM - Basque Center for Applied Mathematics and IKERBASQUE"},
+    {"name": "Vaintrob, Arkady", "affiliation": "University of Oregon"}
+  ],
+  "license": "MIT",
+  "keywords": ["zonotopal algebra", "filtered algebra", "Hilbert function", "graph", "computer-assisted proof"]
+}

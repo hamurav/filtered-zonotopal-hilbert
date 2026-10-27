@@ -1,0 +1,41 @@
+K2                                            |V|=2 |E|= 1 Delta=1  generic [1, 1]  exp [1, 1]
+P3                                            |V|=3 |E|= 2 Delta=2  generic [1, 3]  exp [1, 3]
+K3                                            |V|=3 |E|= 3 Delta=2  generic [1, 3, 2, 1]  exp [1, 3, 2, 1]
+P4                                            |V|=4 |E|= 3 Delta=2  generic [1, 4, 3]  exp [1, 4, 3]
+C4                                            |V|=4 |E|= 4 Delta=2  generic [1, 4, 7, 3]  exp [1, 4, 7, 3]
+K13 (star, GDfo)                              |V|=4 |E|= 3 Delta=3  generic [1, 4, 3]  exp [1, 4, 3]
+paw (GPaw)                                    |V|=4 |E|= 4 Delta=3  generic [1, 4, 7, 2]  exp [1, 4, 7, 2]
+diamond (GDia)                                |V|=4 |E|= 5 Delta=3  generic [1, 4, 10, 9]  exp [1, 4, 10, 9]
+K4 (GKfo)                                     |V|=4 |E|= 6 Delta=3  generic [1, 4, 10, 14, 5, 3, 1]  exp [1, 4, 10, 14, 5, 3, 1]
+P5                                            |V|=5 |E|= 4 Delta=2  generic [1, 5, 10]  exp [1, 5, 10]
+C5                                            |V|=5 |E|= 5 Delta=2  generic [1, 5, 14, 10, 1]  exp [1, 5, 14, 10, 1]
+fork (GDfi)                                   |V|=5 |E|= 4 Delta=3  generic [1, 5, 10]  exp [1, 5, 10]
+K14 (star, Gsta)                              |V|=5 |E|= 4 Delta=4  generic [1, 5, 10]  exp [1, 5, 10]
+banner (Gban)                                 |V|=5 |E|= 5 Delta=3  generic [1, 5, 14, 9, 1]  exp [1, 5, 14, 9, 1]
+bull (Gbul)                                   |V|=5 |E|= 5 Delta=3  generic [1, 5, 13, 9]  exp [1, 5, 13, 9]
+lollipop L32 (Glol)                           |V|=5 |E|= 5 Delta=3  generic [1, 5, 13, 8, 1]  exp [1, 5, 13, 7, 2]   <-- exp NON-GENERIC
+cricket (Gcri)                                |V|=5 |E|= 5 Delta=4  generic [1, 5, 13, 8, 1]  exp [1, 5, 13, 8, 1]
+K23 (Gbip)                                    |V|=5 |E|= 6 Delta=3  generic [1, 5, 15, 26, 7]  exp [1, 5, 15, 24, 9]   <-- exp NON-GENERIC
+kite (Gkit)                                   |V|=5 |E|= 6 Delta=3  generic [1, 5, 14, 23, 5]  exp [1, 5, 14, 22, 6]   <-- exp NON-GENERIC
+house (Ghou)                                  |V|=5 |E|= 6 Delta=3  generic [1, 5, 15, 26, 5]  exp [1, 5, 15, 24, 7]   <-- exp NON-GENERIC
+butterfly (Gbut)                              |V|=5 |E|= 6 Delta=4  generic [1, 5, 15, 21, 7]  exp [1, 5, 15, 21, 7]
+dart (Gdar)                                   |V|=5 |E|= 6 Delta=4  generic [1, 5, 14, 25, 3]  exp [1, 5, 14, 23, 5]   <-- exp NON-GENERIC
+K4 subdivided (Gsub)                          |V|=5 |E|= 7 Delta=3  generic [1, 5, 15, 33, 28, 3, 1]  exp [1, 5, 15, 33, 28, 3, 1]
+gem (Ggem)                                    |V|=5 |E|= 7 Delta=4  generic [1, 5, 15, 33, 28]  exp [1, 5, 15, 33, 28]
+K113 (GKKK)                                   |V|=5 |E|= 7 Delta=4  generic [1, 5, 15, 32, 28]  exp [1, 5, 15, 32, 28]
+lollipop L41 (Gllo)                           |V|=5 |E|= 7 Delta=4  generic [1, 5, 14, 29, 21, 5, 1]  exp [1, 5, 14, 28, 20, 6, 2]   <-- exp NON-GENERIC
+wheel W5 (Gwhe)                               |V|=5 |E|= 8 Delta=4  generic [1, 5, 15, 35, 56, 18, 4]  exp [1, 5, 15, 35, 51, 20, 7]   <-- exp NON-GENERIC
+house X (Ghox)                                |V|=5 |E|= 8 Delta=4  generic [1, 5, 15, 34, 53, 19, 1]  exp [1, 5, 15, 34, 49, 20, 4]   <-- exp NON-GENERIC
+K5-e (GKme)                                   |V|=5 |E|= 9 Delta=4  generic [1, 5, 15, 35, 65, 64, 13]  exp [1, 5, 15, 35, 60, 59, 23]   <-- exp NON-GENERIC
+K5 (GKfi)                                     |V|=5 |E|=10 Delta=4  generic [1, 5, 15, 35, 67, 91, 48, 15, 9, 4, 1]  exp [1, 5, 15, 35, 63, 84, 59, 15, 9, 4, 1]   <-- exp NON-GENERIC
+P4 first edge doubled (Gafa)                  |V|=4 |E|= 4 Delta=3  generic [1, 4, 7]  exp [1, 4, 7]
+P4 middle edge doubled (Gafb)                 |V|=4 |E|= 4 Delta=3  generic [1, 4, 7]  exp [1, 4, 7]
+P4 outer edges doubled (Gafc)                 |V|=4 |E|= 5 Delta=3  generic [1, 4, 9, 4]  exp [1, 4, 9, 4]
+paw, triangle edge doubled (Gppw)             |V|=4 |E|= 5 Delta=3  generic [1, 4, 9, 6]  exp [1, 4, 9, 6]
+C4 one edge doubled (Gcfa)                    |V|=4 |E|= 5 Delta=3  generic [1, 4, 10, 7]  exp [1, 4, 9, 8]   <-- exp NON-GENERIC
+C4 opposite edges doubled (Gcfb, NSh Ex.2)    |V|=4 |E|= 6 Delta=3  generic [1, 4, 10, 15, 2]  exp [1, 4, 10, 14, 3]   <-- exp NON-GENERIC
+C4 adjacent edges doubled (NSh Ex.2)          |V|=4 |E|= 6 Delta=4  generic [1, 4, 10, 16, 1]  exp [1, 4, 10, 15, 2]   <-- exp NON-GENERIC
+triangle one edge doubled                     |V|=3 |E|= 4 Delta=3  generic [1, 3, 5, 1]  exp [1, 3, 4, 2]   <-- exp NON-GENERIC
+E2 (double edge)                              |V|=2 |E|= 2 Delta=2  generic [1, 2]  exp [1, 2]
+E3 (theta)                                    |V|=2 |E|= 3 Delta=3  generic [1, 2, 1]  exp [1, 2, 1]
+E4                                            |V|=2 |E|= 4 Delta=4  generic [1, 2, 2]  exp [1, 2, 2]

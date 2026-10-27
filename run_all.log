@@ -1,0 +1,65 @@
+# 2026-10-25 15:51 UTC  Linux 6.18.44-fc-v153 x86_64  Python 3.13.16  sections: certificates checks tables search strata cycles generic_exp
+# Recorded in several pieces on 25 October 2026, at most two at a time on four
+# cores, so the times include waiting for a core. Each command is listed once,
+# with the run whose output is in the repository.
+ok          38s  certificates: py verify_parameter_results.py  > verified_results.txt
+ok           0s  certificates: py tree_messages.py  > tree_messages.log
+ok           1s  checks: py t3_profile.py ../certificates ../strata/d4_witness_lib.py  > t3_profile.log
+ok           0s  checks: py exp_check.py ../certificates  > exp_check.log
+ok           0s  checks: py d6e6_check.py ../certificates  > d6e6_check.log
+ok           0s  checks: py c6_annihilator.py  > c6_annihilator.log
+ok           0s  checks: py neck_states.py ../certificates  > neck_states.log
+ok         103s  checks: py neck_direct.py theta 8  > neck_theta8.log
+ok          98s  checks: py neck_direct.py K13 6  > neck_K13.log
+ok          55s  checks: py neck_direct.py K3 6  > neck_K3.log
+ok          27s  checks: py paths_tails.py  > paths_tails.log
+ok           4s  checks: py loci_algebra.py  > loci_algebra.log
+ok         131s  checks: py subdivision.py  > subdivision.log
+ok         160s  tables: py check_tables.py tables345_clean.tex --certificates ../certificates --json tables.json  > check_tables_output.txt
+ok          46s  tables: py complete_profiles.py tables345_clean.tex  > complete_profiles.log
+ok           0s  search: py small_graphs.py  > results/small_graphs.log
+ok         119s  search: py verify_pairs.py --jobs 4  > results/pairs_run.log
+ok        1172s  search: py search.py trees --nmax 10 --direct --jobs 4  > results/trees_run.log
+ok          27s  search: py search.py trees --nmax 10 --jobs 4 --tag _without_u4 --functions u u+u^2 u+u^2+u^3 u+u^2+2u^3 u+u^3  > results/trees_without_u4_run.log
+ok          92s  search: py search.py unicycles --nmax 8 --jobs 4  > results/unicycles_run.log
+ok           0s  search: py nsh_example2.py  > results/nsh_example2.txt
+ok         106s  search: py exp_small.py --jobs 4  > results/exp_small.log
+ok          40s  search: py degenerate_check.py trees --nmax 12
+ok           0s  search: py degenerate_check.py lemma
+ok           0s  search: py degenerate_check.py cycles
+ok           0s  strata: py d4_closure.py ../certificates 3  > d3_closure.log
+ok           9s  strata: py d4_closure.py ../certificates 4  > d4_closure.log
+ok          39s  strata: py d4_cells.py ../certificates  > d4_cells.log
+ok           1s  strata: py d4_witness.py ../certificates 10  > d4_witness.log
+ok         216s  strata: py d5_closure.py ../certificates  > d5_closure.log
+ok           5s  strata: py d5_surfaces.py ../certificates generic  > surf_generic.log
+ok         277s  strata: py d5_surfaces.py ../certificates 0  > surf_0.log
+ok         303s  strata: py d5_surfaces.py ../certificates 1  > surf_1.log
+ok          95s  strata: py d5_surfaces.py ../certificates 2  > surf_2.log
+ok         199s  strata: py d5_surfaces.py ../certificates 3  > surf_3.log
+ok         220s  strata: py d5_surfaces.py ../certificates 4  > surf_4.log
+ok         222s  strata: py d5_surfaces.py ../certificates 5  > surf_5.log
+ok         222s  strata: py d5_surfaces.py ../certificates 6  > surf_6.log
+ok         229s  strata: py d5_surfaces.py ../certificates 7  > surf_7.log
+ok         225s  strata: py d5_surfaces.py ../certificates 8  > surf_8.log
+ok           7s  strata: py d5_witness.py ../certificates 14  > d5_witness.log
+ok          21s  strata: py collisions.py ../certificates 3 18  > collisions_D3.log
+ok           5s  strata: py collisions.py ../certificates 4 14  > collisions_D4.log
+ok          22s  strata: py info_per_point.py ../certificates 3 18  > info_D3.log
+ok           5s  strata: py info_per_point.py ../certificates 4 14  > info_D4.log
+ok           4s  strata: py collision_moves.py ../certificates 3 16  > moves_D3.log
+ok           1s  strata: py swap_test.py ../certificates 3 14  > swaps_D3.log
+ok        2947s  cycles: python3 cycle_hilbert.py 3 17 --primes 2 --out results/cycle_series.json  > results/cycle_hilbert.log
+ok           0s  cycles: py cycle_formulas.py results/cycle_series.json  > results/cycle_formulas.log
+ok          10s  cycles: py annihilators.py  > results/annihilators.log
+ok           3s  checks/generic_exp: py phase1.py  > results/phase1.log
+ok           1s  checks/generic_exp: py scan.py 101 ALL3  > results/scan3_p101.log
+ok        1342s  checks/generic_exp: py scan.py 101 ALL4  > results/scan4_p101.log
+ok         654s  checks/generic_exp: py scan.py 61 ALL3 ALL4  > results/scan_p61.log
+ok           0s  checks/generic_exp: py classify.py 101  > results/classify_p101.txt
+ok           0s  checks/generic_exp: py classify.py 61  > results/classify_p61.txt
+ok         934s  checks/generic_exp: py six.py 6 15  > results/six_6.log
+ok         487s  checks/generic_exp: py bonus_low.py  > results/bonus_low.log
+ok         228s  checks/generic_exp: py low_certificate.py --jobs 4
+ok           0s  checks/generic_exp: py summary.py  > results/summary.txt
+# all runs finished without error

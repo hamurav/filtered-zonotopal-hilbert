@@ -1,0 +1,1 @@
+[3] b - 3: param b,c,d = 3, x, y; gaps [0, 1, 2, 3, 4, 5]; 209 tables; 0 differ from generic []; subfactors ['x - 1/6*y - 11/3', 'x - 1/9*y - 6', 'x - 10', 'x - 11', 'x**2 - 14*x - y + 78', 'x**2 - 201/8*x + 5/8*y + 255/2', 'x**2 - 77/2*x + 5/2*y + 190']; 199s

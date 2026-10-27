@@ -1,0 +1,95 @@
+K13 (star, GDfo): p=101, 103 points, generic [1, 4, 3]; exceptional series:
+   [1, 3, 3, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+paw (GPaw): p=101, 103 points, generic [1, 4, 7, 2]; exceptional series:
+   [1, 4, 6, 3]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 5, 4, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+diamond (GDia): p=101, 103 points, generic [1, 4, 10, 9]; exceptional series:
+   [1, 4, 9, 10]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 4, 9, 8, 2]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 6, 8, 5, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+K4 (GKfo): p=101, 103 points, generic [1, 4, 10, 14, 5, 3, 1]; exceptional series:
+   [1, 4, 9, 15, 5, 3, 1]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 4, 9, 12, 8, 3, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 6, 10, 11, 6, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+fork (GDfi): p=101, 103 points, generic [1, 5, 10]; exceptional series:
+   [1, 5, 7, 3]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 6, 4, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+banner (Gban): p=101, 103 points, generic [1, 5, 14, 9, 1]; exceptional series:
+   [1, 5, 13, 10, 1]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 11, 10, 3]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 9, 10, 5, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+bull (Gbul): p=101, 103 points, generic [1, 5, 13, 9]; exceptional series:
+   [1, 5, 12, 10]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 12, 9, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 8, 9, 5, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+lollipop L32 (Glol): p=101, 103 points, generic [1, 5, 13, 8, 1]; exceptional series:
+   [1, 5, 12, 8, 2]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 13, 7, 2]: 1 points, e.g. [((1, 1), (2, 1), (3, 68))]
+   [1, 5, 10, 9, 3]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 8, 9, 5, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+K23 (Gbip): p=101, 103 points, generic [1, 5, 15, 26, 7]; exceptional series:
+   [1, 5, 14, 25, 9]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 15, 24, 9]: 1 points, e.g. [((1, 1), (2, 1), (3, 68))]
+   [1, 5, 15, 22, 11]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 10, 17, 15, 6, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+kite (Gkit): p=101, 103 points, generic [1, 5, 14, 23, 5]; exceptional series:
+   [1, 5, 13, 21, 8]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 14, 22, 6]: 1 points, e.g. [((1, 1), (2, 1), (3, 68))]
+   [1, 5, 13, 19, 10]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 9, 14, 13, 6, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+house (Ghou): p=101, 103 points, generic [1, 5, 15, 26, 5]; exceptional series:
+   [1, 5, 14, 23, 9]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 15, 24, 7]: 1 points, e.g. [((1, 1), (2, 1), (3, 68))]
+   [1, 5, 14, 20, 11, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 10, 16, 14, 6, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+K4 subdivided (Gsub): p=101, 103 points, generic [1, 5, 15, 33, 28, 3, 1]; exceptional series:
+   [1, 5, 14, 29, 33, 3, 1]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 5, 15, 29, 26, 9, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 4, 10, 19, 25, 19, 7, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+P4 first edge doubled (Gafa): p=101, 103 points, generic [1, 4, 7]; exceptional series:
+   [1, 4, 5, 2]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 4, 3, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+P4 middle edge doubled (Gafb): p=101, 103 points, generic [1, 4, 7]; exceptional series:
+   [1, 4, 5, 2]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 4, 3, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+P4 outer edges doubled (Gafc): p=101, 103 points, generic [1, 4, 9, 4]; exceptional series:
+   [1, 4, 7, 5, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 5, 5, 3, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+paw, triangle edge doubled (Gppw): p=101, 103 points, generic [1, 4, 9, 6]; exceptional series:
+   [1, 4, 8, 7]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 4, 8, 6, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 5, 6, 4, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+C4 one edge doubled (Gcfa): p=101, 103 points, generic [1, 4, 10, 7]; exceptional series:
+   [1, 4, 9, 8]: 2 points, e.g. [((1, 1), (2, 1), (3, 2)), ((1, 1), (2, 1), (3, 68))]
+   [1, 4, 8, 7, 2]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 6, 7, 4, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+C4 opposite edges doubled (Gcfb, NSh Ex.2): p=101, 103 points, generic [1, 4, 10, 15, 2]; exceptional series:
+   [1, 4, 9, 15, 3]: 1 points, e.g. [((1, 1), (2, 1), (3, 2))]
+   [1, 4, 10, 14, 3]: 1 points, e.g. [((1, 1), (2, 1), (3, 68))]
+   [1, 4, 10, 11, 5, 1]: 1 points, e.g. [((1, 1), (3, 1))]
+   [1, 3, 6, 9, 8, 4, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+triangle one edge doubled: p=101, 103 points, generic [1, 3, 5, 1]; exceptional series:
+   [1, 3, 4, 2]: 3 points, e.g. [((1, 1), (2, 1), (3, 2)), ((1, 1), (2, 1), (3, 68)), ((1, 1), (3, 1))]
+   [1, 2, 3, 3, 1]: 1 points, e.g. [((1, 1),)]
+   (0s)
+E3 (theta): p=101, 103 points, generic [1, 2, 1]; exceptional series:
+   [1, 1, 1, 1]: 2 points, e.g. [((1, 1), (3, 1)), ((1, 1),)]
+   (0s)

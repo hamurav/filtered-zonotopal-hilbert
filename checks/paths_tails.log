@@ -1,0 +1,31 @@
+Table 1 (paths)
+ok   n=1: [1, 1] for the three f, (1+t)^1 for f = u
+ok   n=2: [1, 3] for the three f, (1+t)^2 for f = u
+ok   n=3: [1, 4, 3] for the three f, (1+t)^3 for f = u
+ok   n=4: [1, 5, 10] for the three f, (1+t)^4 for f = u
+ok   n=5: [1, 6, 16, 9] for the three f, (1+t)^5 for f = u
+ok   n=6: [1, 7, 23, 33] for the three f, (1+t)^6 for f = u
+ok   n=7: [1, 8, 31, 61, 27] for the three f, (1+t)^7 for f = u
+ok   n=8: [1, 9, 40, 98, 108] for the three f, (1+t)^8 for f = u
+Corollary 4.14 (paths)
+ok   initial values H_0, ..., H_3
+ok   direct values satisfy the recurrence for 4 <= n <= 11 (17s)
+ok   degree ceil(n/2), leading coefficients 3^(r-1) and (m+8)3^(m-2), and H_n(1) = 2^n, for n <= 60
+Remark 4.13 and Theorem 4.9 (tails)
+ok   alpha=1: K3, L(H_3) = -t^3 + t^4
+ok   alpha=1: K3, L(H_n) = 0 for n = 4, 5, 6
+ok   alpha=1: K13, H~_2 - H_2 = -t^2 + t^3
+ok   alpha=1: K13, L(H_n) = 0 for n = 4, 5, 6
+ok   alpha=1: K3, H~_n = H_n for n = 3, 4
+ok   alpha=1: K3, H^b_n = H_(n+1) - t H_(n-1) for n = 2, 3, 4
+ok   alpha=1: K13, H~_n = H_n for n = 3, 4
+ok   alpha=1: K13, H^b_n = H_(n+1) - t H_(n-1) for n = 2, 3, 4
+ok   alpha=-2: K3, L(H_3) = -t^3 + t^4
+ok   alpha=-2: K3, L(H_n) = 0 for n = 4, 5, 6
+ok   alpha=-2: K13, H~_2 - H_2 = -t^2 + t^3
+ok   alpha=-2: K13, L(H_n) = 0 for n = 4, 5, 6
+ok   alpha=-2: K3, H~_n = H_n for n = 3, 4
+ok   alpha=-2: K3, H^b_n = H_(n+1) - t H_(n-1) for n = 2, 3, 4
+ok   alpha=-2: K13, H~_n = H_n for n = 3, 4
+ok   alpha=-2: K13, H^b_n = H_(n+1) - t H_(n-1) for n = 2, 3, 4
+all checks passed

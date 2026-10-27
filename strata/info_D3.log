@@ -1,0 +1,3 @@
+D=3 n=16: trees 2410, full-profile classes 2368; single-point classes: u: 1, u+u^3: 251, u+u^2+2u^3: 760, u+u^2 (generic): 553
+D=3 n=17: trees 5098, full-profile classes 5005; single-point classes: u: 1, u+u^3: 441, u+u^2+2u^3: 1572, u+u^2 (generic): 1117
+D=3 n=18: trees 11020, full-profile classes 10850; single-point classes: u: 1, u+u^3: 805, u+u^2+2u^3: 3202, u+u^2 (generic): 2298

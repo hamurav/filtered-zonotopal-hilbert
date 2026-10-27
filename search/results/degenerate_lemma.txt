@@ -1,0 +1,2 @@
+470 random families (A_v without two consecutive integers) on trees with at most 9 vertices; families with a linear dependence: 0
+the hypothesis is needed: path with 2 edges, all exponents: 8 nonzero P_a, rank 4

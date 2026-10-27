@@ -1,0 +1,2200 @@
+{
+ "10": {
+  "agree": true,
+  "h": [
+   1,
+   10,
+   54,
+   190,
+   405,
+   346,
+   17
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     10,
+     54,
+     190,
+     405,
+     346,
+     17
+    ],
+    "p": 4566161,
+    "seconds": 0.1,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 10,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 6,
+      "d": 2,
+      "frontier": 6,
+      "h_d": 54,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 21,
+      "d": 3,
+      "frontier": 20,
+      "h_d": 190,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 62,
+      "d": 4,
+      "frontier": 48,
+      "h_d": 405,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 143,
+      "d": 5,
+      "frontier": 52,
+      "h_d": 346,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 207,
+      "d": 6,
+      "frontier": 4,
+      "h_d": 17,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     10,
+     54,
+     190,
+     405,
+     346,
+     17
+    ],
+    "p": 4566151,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 10,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 6,
+      "d": 2,
+      "frontier": 6,
+      "h_d": 54,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 21,
+      "d": 3,
+      "frontier": 20,
+      "h_d": 190,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 62,
+      "d": 4,
+      "frontier": 48,
+      "h_d": 405,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 143,
+      "d": 5,
+      "frontier": 52,
+      "h_d": 346,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 207,
+      "d": 6,
+      "frontier": 4,
+      "h_d": 17,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "11": {
+  "agree": true,
+  "h": [
+   1,
+   11,
+   65,
+   253,
+   627,
+   891,
+   198,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     11,
+     65,
+     253,
+     627,
+     891,
+     198,
+     1
+    ],
+    "p": 3460799,
+    "seconds": 0.2,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 11,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 6,
+      "d": 2,
+      "frontier": 6,
+      "h_d": 65,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 25,
+      "d": 3,
+      "frontier": 25,
+      "h_d": 253,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 80,
+      "d": 4,
+      "frontier": 65,
+      "h_d": 627,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 204,
+      "d": 5,
+      "frontier": 103,
+      "h_d": 891,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 377,
+      "d": 6,
+      "frontier": 36,
+      "h_d": 198,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 240,
+      "d": 7,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     11,
+     65,
+     253,
+     627,
+     891,
+     198,
+     1
+    ],
+    "p": 3460733,
+    "seconds": 0.2,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 11,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 6,
+      "d": 2,
+      "frontier": 6,
+      "h_d": 65,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 25,
+      "d": 3,
+      "frontier": 25,
+      "h_d": 253,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 80,
+      "d": 4,
+      "frontier": 65,
+      "h_d": 627,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 204,
+      "d": 5,
+      "frontier": 103,
+      "h_d": 891,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 377,
+      "d": 6,
+      "frontier": 36,
+      "h_d": 198,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 240,
+      "d": 7,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "12": {
+  "agree": true,
+  "h": [
+   1,
+   12,
+   77,
+   328,
+   921,
+   1620,
+   1103,
+   33
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     12,
+     77,
+     328,
+     921,
+     1620,
+     1103,
+     33
+    ],
+    "p": 2529253,
+    "seconds": 0.9,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 12,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 7,
+      "d": 2,
+      "frontier": 7,
+      "h_d": 77,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 30,
+      "d": 3,
+      "frontier": 29,
+      "h_d": 328,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 103,
+      "d": 4,
+      "frontier": 87,
+      "h_d": 921,
+      "seconds": 0.2
+     },
+     {
+      "candidates": 283,
+      "d": 5,
+      "frontier": 159,
+      "h_d": 1620,
+      "seconds": 0.4
+     },
+     {
+      "candidates": 594,
+      "d": 6,
+      "frontier": 147,
+      "h_d": 1103,
+      "seconds": 0.2
+     },
+     {
+      "candidates": 745,
+      "d": 7,
+      "frontier": 8,
+      "h_d": 33,
+      "seconds": 0.1
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     12,
+     77,
+     328,
+     921,
+     1620,
+     1103,
+     33
+    ],
+    "p": 2529229,
+    "seconds": 0.9,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 12,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 7,
+      "d": 2,
+      "frontier": 7,
+      "h_d": 77,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 30,
+      "d": 3,
+      "frontier": 29,
+      "h_d": 328,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 103,
+      "d": 4,
+      "frontier": 87,
+      "h_d": 921,
+      "seconds": 0.2
+     },
+     {
+      "candidates": 283,
+      "d": 5,
+      "frontier": 159,
+      "h_d": 1620,
+      "seconds": 0.3
+     },
+     {
+      "candidates": 594,
+      "d": 6,
+      "frontier": 147,
+      "h_d": 1103,
+      "seconds": 0.2
+     },
+     {
+      "candidates": 745,
+      "d": 7,
+      "frontier": 8,
+      "h_d": 33,
+      "seconds": 0.1
+     }
+    ]
+   }
+  ]
+ },
+ "13": {
+  "agree": true,
+  "h": [
+   1,
+   13,
+   90,
+   416,
+   1300,
+   2691,
+   3159,
+   520,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     13,
+     90,
+     416,
+     1300,
+     2691,
+     3159,
+     520,
+     1
+    ],
+    "p": 1887419,
+    "seconds": 3.7,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 13,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 7,
+      "d": 2,
+      "frontier": 7,
+      "h_d": 90,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 34,
+      "d": 3,
+      "frontier": 34,
+      "h_d": 416,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 127,
+      "d": 4,
+      "frontier": 109,
+      "h_d": 1300,
+      "seconds": 0.7
+     },
+     {
+      "candidates": 382,
+      "d": 5,
+      "frontier": 241,
+      "h_d": 2691,
+      "seconds": 1.1
+     },
+     {
+      "candidates": 899,
+      "d": 6,
+      "frontier": 311,
+      "h_d": 3159,
+      "seconds": 1.2
+     },
+     {
+      "candidates": 1442,
+      "d": 7,
+      "frontier": 80,
+      "h_d": 520,
+      "seconds": 0.6
+     },
+     {
+      "candidates": 647,
+      "d": 8,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.1
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     13,
+     90,
+     416,
+     1300,
+     2691,
+     3159,
+     520,
+     1
+    ],
+    "p": 1887341,
+    "seconds": 3.2,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 13,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 7,
+      "d": 2,
+      "frontier": 7,
+      "h_d": 90,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 34,
+      "d": 3,
+      "frontier": 34,
+      "h_d": 416,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 127,
+      "d": 4,
+      "frontier": 109,
+      "h_d": 1300,
+      "seconds": 0.6
+     },
+     {
+      "candidates": 382,
+      "d": 5,
+      "frontier": 241,
+      "h_d": 2691,
+      "seconds": 1.0
+     },
+     {
+      "candidates": 899,
+      "d": 6,
+      "frontier": 311,
+      "h_d": 3159,
+      "seconds": 0.9
+     },
+     {
+      "candidates": 1442,
+      "d": 7,
+      "frontier": 80,
+      "h_d": 520,
+      "seconds": 0.6
+     },
+     {
+      "candidates": 647,
+      "d": 8,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.1
+     }
+    ]
+   }
+  ]
+ },
+ "14": {
+  "agree": true,
+  "h": [
+   1,
+   14,
+   104,
+   518,
+   1778,
+   4200,
+   6237,
+   3466,
+   65
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     14,
+     104,
+     518,
+     1778,
+     4200,
+     6237,
+     3466,
+     65
+    ],
+    "p": 1380233,
+    "seconds": 13.3,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 14,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 8,
+      "d": 2,
+      "frontier": 8,
+      "h_d": 104,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 39,
+      "d": 3,
+      "frontier": 38,
+      "h_d": 518,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 157,
+      "d": 4,
+      "frontier": 139,
+      "h_d": 1778,
+      "seconds": 1.6
+     },
+     {
+      "candidates": 504,
+      "d": 5,
+      "frontier": 339,
+      "h_d": 4200,
+      "seconds": 3.6
+     },
+     {
+      "candidates": 1296,
+      "d": 6,
+      "frontier": 549,
+      "h_d": 6237,
+      "seconds": 3.9
+     },
+     {
+      "candidates": 2447,
+      "d": 7,
+      "frontier": 385,
+      "h_d": 3466,
+      "seconds": 2.7
+     },
+     {
+      "candidates": 2468,
+      "d": 8,
+      "frontier": 10,
+      "h_d": 65,
+      "seconds": 1.3
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     14,
+     104,
+     518,
+     1778,
+     4200,
+     6237,
+     3466,
+     65
+    ],
+    "p": 1380163,
+    "seconds": 13.7,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 14,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 8,
+      "d": 2,
+      "frontier": 8,
+      "h_d": 104,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 39,
+      "d": 3,
+      "frontier": 38,
+      "h_d": 518,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 157,
+      "d": 4,
+      "frontier": 139,
+      "h_d": 1778,
+      "seconds": 1.5
+     },
+     {
+      "candidates": 504,
+      "d": 5,
+      "frontier": 339,
+      "h_d": 4200,
+      "seconds": 3.5
+     },
+     {
+      "candidates": 1296,
+      "d": 6,
+      "frontier": 549,
+      "h_d": 6237,
+      "seconds": 3.8
+     },
+     {
+      "candidates": 2447,
+      "d": 7,
+      "frontier": 385,
+      "h_d": 3466,
+      "seconds": 3.2
+     },
+     {
+      "candidates": 2468,
+      "d": 8,
+      "frontier": 10,
+      "h_d": 65,
+      "seconds": 1.4
+     }
+    ]
+   }
+  ]
+ },
+ "15": {
+  "agree": true,
+  "h": [
+   1,
+   15,
+   119,
+   635,
+   2370,
+   6258,
+   11070,
+   10935,
+   1363,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     15,
+     119,
+     635,
+     2370,
+     6258,
+     11070,
+     10935,
+     1363,
+     1
+    ],
+    "p": 1013431,
+    "seconds": 43.1,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 15,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 8,
+      "d": 2,
+      "frontier": 8,
+      "h_d": 119,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 45,
+      "d": 3,
+      "frontier": 45,
+      "h_d": 635,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 189,
+      "d": 4,
+      "frontier": 169,
+      "h_d": 2370,
+      "seconds": 2.8
+     },
+     {
+      "candidates": 653,
+      "d": 5,
+      "frontier": 472,
+      "h_d": 6258,
+      "seconds": 7.5
+     },
+     {
+      "candidates": 1822,
+      "d": 6,
+      "frontier": 885,
+      "h_d": 11070,
+      "seconds": 13.1
+     },
+     {
+      "candidates": 3896,
+      "d": 7,
+      "frontier": 952,
+      "h_d": 10935,
+      "seconds": 13.0
+     },
+     {
+      "candidates": 5377,
+      "d": 8,
+      "frontier": 182,
+      "h_d": 1363,
+      "seconds": 5.3
+     },
+     {
+      "candidates": 1746,
+      "d": 9,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 1.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     15,
+     119,
+     635,
+     2370,
+     6258,
+     11070,
+     10935,
+     1363,
+     1
+    ],
+    "p": 1013401,
+    "seconds": 32.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 15,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 8,
+      "d": 2,
+      "frontier": 8,
+      "h_d": 119,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 45,
+      "d": 3,
+      "frontier": 45,
+      "h_d": 635,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 189,
+      "d": 4,
+      "frontier": 169,
+      "h_d": 2370,
+      "seconds": 2.3
+     },
+     {
+      "candidates": 653,
+      "d": 5,
+      "frontier": 472,
+      "h_d": 6258,
+      "seconds": 8.4
+     },
+     {
+      "candidates": 1822,
+      "d": 6,
+      "frontier": 885,
+      "h_d": 11070,
+      "seconds": 13.1
+     },
+     {
+      "candidates": 3896,
+      "d": 7,
+      "frontier": 952,
+      "h_d": 10935,
+      "seconds": 5.1
+     },
+     {
+      "candidates": 5377,
+      "d": 8,
+      "frontier": 182,
+      "h_d": 1363,
+      "seconds": 2.3
+     },
+     {
+      "candidates": 1746,
+      "d": 9,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.6
+     }
+    ]
+   }
+  ]
+ },
+ "16": {
+  "agree": true,
+  "h": [
+   1,
+   16,
+   135,
+   768,
+   3092,
+   8992,
+   18288,
+   23328,
+   10786,
+   129
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     16,
+     135,
+     768,
+     3092,
+     8992,
+     18288,
+     23328,
+     10786,
+     129
+    ],
+    "p": 739649,
+    "seconds": 169.7,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 16,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 9,
+      "d": 2,
+      "frontier": 9,
+      "h_d": 135,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 50,
+      "d": 3,
+      "frontier": 49,
+      "h_d": 768,
+      "seconds": 0.5
+     },
+     {
+      "candidates": 228,
+      "d": 4,
+      "frontier": 207,
+      "h_d": 3092,
+      "seconds": 2.6
+     },
+     {
+      "candidates": 830,
+      "d": 5,
+      "frontier": 619,
+      "h_d": 8992,
+      "seconds": 10.5
+     },
+     {
+      "candidates": 2481,
+      "d": 6,
+      "frontier": 1333,
+      "h_d": 18288,
+      "seconds": 41.9
+     },
+     {
+      "candidates": 5841,
+      "d": 7,
+      "frontier": 1816,
+      "h_d": 23328,
+      "seconds": 63.3
+     },
+     {
+      "candidates": 9756,
+      "d": 8,
+      "frontier": 1065,
+      "h_d": 10786,
+      "seconds": 41.7
+     },
+     {
+      "candidates": 8129,
+      "d": 9,
+      "frontier": 20,
+      "h_d": 129,
+      "seconds": 8.9
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     16,
+     135,
+     768,
+     3092,
+     8992,
+     18288,
+     23328,
+     10786,
+     129
+    ],
+    "p": 739633,
+    "seconds": 179.3,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 16,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 9,
+      "d": 2,
+      "frontier": 9,
+      "h_d": 135,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 50,
+      "d": 3,
+      "frontier": 49,
+      "h_d": 768,
+      "seconds": 0.8
+     },
+     {
+      "candidates": 228,
+      "d": 4,
+      "frontier": 207,
+      "h_d": 3092,
+      "seconds": 4.5
+     },
+     {
+      "candidates": 830,
+      "d": 5,
+      "frontier": 619,
+      "h_d": 8992,
+      "seconds": 16.4
+     },
+     {
+      "candidates": 2481,
+      "d": 6,
+      "frontier": 1333,
+      "h_d": 18288,
+      "seconds": 39.3
+     },
+     {
+      "candidates": 5841,
+      "d": 7,
+      "frontier": 1816,
+      "h_d": 23328,
+      "seconds": 65.5
+     },
+     {
+      "candidates": 9756,
+      "d": 8,
+      "frontier": 1065,
+      "h_d": 10786,
+      "seconds": 43.2
+     },
+     {
+      "candidates": 8129,
+      "d": 9,
+      "frontier": 20,
+      "h_d": 129,
+      "seconds": 9.4
+     }
+    ]
+   }
+  ]
+ },
+ "17": {
+  "agree": true,
+  "h": [
+   1,
+   17,
+   152,
+   918,
+   3961,
+   12546,
+   28662,
+   44064,
+   37179,
+   3570,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     17,
+     152,
+     918,
+     3961,
+     12546,
+     28662,
+     44064,
+     37179,
+     3570,
+     1
+    ],
+    "p": 539921,
+    "seconds": 1246.2,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 17,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 9,
+      "d": 2,
+      "frontier": 9,
+      "h_d": 152,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 56,
+      "d": 3,
+      "frontier": 56,
+      "h_d": 918,
+      "seconds": 2.0
+     },
+     {
+      "candidates": 268,
+      "d": 4,
+      "frontier": 246,
+      "h_d": 3961,
+      "seconds": 14.2
+     },
+     {
+      "candidates": 1041,
+      "d": 5,
+      "frontier": 808,
+      "h_d": 12546,
+      "seconds": 45.1
+     },
+     {
+      "candidates": 3321,
+      "d": 6,
+      "frontier": 1936,
+      "h_d": 28662,
+      "seconds": 205.4
+     },
+     {
+      "candidates": 8529,
+      "d": 7,
+      "frontier": 3162,
+      "h_d": 44064,
+      "seconds": 415.3
+     },
+     {
+      "candidates": 16418,
+      "d": 8,
+      "frontier": 2921,
+      "h_d": 37179,
+      "seconds": 368.2
+     },
+     {
+      "candidates": 19576,
+      "d": 9,
+      "frontier": 404,
+      "h_d": 3570,
+      "seconds": 159.2
+     },
+     {
+      "candidates": 4487,
+      "d": 10,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 36.3
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     17,
+     152,
+     918,
+     3961,
+     12546,
+     28662,
+     44064,
+     37179,
+     3570,
+     1
+    ],
+    "p": 539479,
+    "seconds": 1240.8,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 17,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 9,
+      "d": 2,
+      "frontier": 9,
+      "h_d": 152,
+      "seconds": 0.1
+     },
+     {
+      "candidates": 56,
+      "d": 3,
+      "frontier": 56,
+      "h_d": 918,
+      "seconds": 2.0
+     },
+     {
+      "candidates": 268,
+      "d": 4,
+      "frontier": 246,
+      "h_d": 3961,
+      "seconds": 13.4
+     },
+     {
+      "candidates": 1041,
+      "d": 5,
+      "frontier": 808,
+      "h_d": 12546,
+      "seconds": 45.7
+     },
+     {
+      "candidates": 3321,
+      "d": 6,
+      "frontier": 1936,
+      "h_d": 28662,
+      "seconds": 163.6
+     },
+     {
+      "candidates": 8529,
+      "d": 7,
+      "frontier": 3162,
+      "h_d": 44064,
+      "seconds": 407.5
+     },
+     {
+      "candidates": 16418,
+      "d": 8,
+      "frontier": 2921,
+      "h_d": 37179,
+      "seconds": 329.9
+     },
+     {
+      "candidates": 19576,
+      "d": 9,
+      "frontier": 404,
+      "h_d": 3570,
+      "seconds": 234.3
+     },
+     {
+      "candidates": 4487,
+      "d": 10,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 44.1
+     }
+    ]
+   }
+  ]
+ },
+ "3": {
+  "agree": true,
+  "h": [
+   1,
+   3,
+   2,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     3,
+     2,
+     1
+    ],
+    "p": 23726557,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 3,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 2,
+      "d": 2,
+      "frontier": 1,
+      "h_d": 2,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 2,
+      "d": 3,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     3,
+     2,
+     1
+    ],
+    "p": 23726551,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 3,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 2,
+      "d": 2,
+      "frontier": 1,
+      "h_d": 2,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 2,
+      "d": 3,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "4": {
+  "agree": true,
+  "h": [
+   1,
+   4,
+   7,
+   3
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     4,
+     7,
+     3
+    ],
+    "p": 19372649,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 4,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 3,
+      "d": 2,
+      "frontier": 3,
+      "h_d": 7,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 4,
+      "d": 3,
+      "frontier": 2,
+      "h_d": 3,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     4,
+     7,
+     3
+    ],
+    "p": 19372637,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 4,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 3,
+      "d": 2,
+      "frontier": 3,
+      "h_d": 7,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 4,
+      "d": 3,
+      "frontier": 2,
+      "h_d": 3,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "5": {
+  "agree": true,
+  "h": [
+   1,
+   5,
+   14,
+   10,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     5,
+     14,
+     10,
+     1
+    ],
+    "p": 16777141,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 5,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 3,
+      "d": 2,
+      "frontier": 3,
+      "h_d": 14,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 6,
+      "d": 3,
+      "frontier": 4,
+      "h_d": 10,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 8,
+      "d": 4,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     5,
+     14,
+     10,
+     1
+    ],
+    "p": 16777121,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 5,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 3,
+      "d": 2,
+      "frontier": 3,
+      "h_d": 14,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 6,
+      "d": 3,
+      "frontier": 4,
+      "h_d": 10,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 8,
+      "d": 4,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "6": {
+  "agree": true,
+  "h": [
+   1,
+   6,
+   20,
+   31,
+   5
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     6,
+     20,
+     31,
+     5
+    ],
+    "p": 12682381,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 6,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 4,
+      "d": 2,
+      "frontier": 4,
+      "h_d": 20,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 9,
+      "d": 3,
+      "frontier": 8,
+      "h_d": 31,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 15,
+      "d": 4,
+      "frontier": 2,
+      "h_d": 5,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     6,
+     20,
+     31,
+     5
+    ],
+    "p": 12682273,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 6,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 4,
+      "d": 2,
+      "frontier": 4,
+      "h_d": 20,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 9,
+      "d": 3,
+      "frontier": 8,
+      "h_d": 31,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 15,
+      "d": 4,
+      "frontier": 2,
+      "h_d": 5,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "7": {
+  "agree": true,
+  "h": [
+   1,
+   7,
+   27,
+   63,
+   28,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     7,
+     27,
+     63,
+     28,
+     1
+    ],
+    "p": 10610671,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 7,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 4,
+      "d": 2,
+      "frontier": 4,
+      "h_d": 27,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 11,
+      "d": 3,
+      "frontier": 11,
+      "h_d": 63,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 23,
+      "d": 4,
+      "frontier": 8,
+      "h_d": 28,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 28,
+      "d": 5,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     7,
+     27,
+     63,
+     28,
+     1
+    ],
+    "p": 10610657,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 7,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 4,
+      "d": 2,
+      "frontier": 4,
+      "h_d": 27,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 11,
+      "d": 3,
+      "frontier": 11,
+      "h_d": 63,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 23,
+      "d": 4,
+      "frontier": 8,
+      "h_d": 28,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 28,
+      "d": 5,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "8": {
+  "agree": true,
+  "h": [
+   1,
+   8,
+   35,
+   96,
+   106,
+   9
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     8,
+     35,
+     96,
+     106,
+     9
+    ],
+    "p": 7908809,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 8,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 5,
+      "d": 2,
+      "frontier": 5,
+      "h_d": 35,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 14,
+      "d": 3,
+      "frontier": 13,
+      "h_d": 96,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 34,
+      "d": 4,
+      "frontier": 22,
+      "h_d": 106,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 60,
+      "d": 5,
+      "frontier": 4,
+      "h_d": 9,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     8,
+     35,
+     96,
+     106,
+     9
+    ],
+    "p": 7908721,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 8,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 5,
+      "d": 2,
+      "frontier": 5,
+      "h_d": 35,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 14,
+      "d": 3,
+      "frontier": 13,
+      "h_d": 96,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 34,
+      "d": 4,
+      "frontier": 22,
+      "h_d": 106,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 60,
+      "d": 5,
+      "frontier": 4,
+      "h_d": 9,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ },
+ "9": {
+  "agree": true,
+  "h": [
+   1,
+   9,
+   44,
+   138,
+   243,
+   75,
+   1
+  ],
+  "runs": [
+   {
+    "h": [
+     1,
+     9,
+     44,
+     138,
+     243,
+     75,
+     1
+    ],
+    "p": 6126139,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 9,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 5,
+      "d": 2,
+      "frontier": 5,
+      "h_d": 44,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 18,
+      "d": 3,
+      "frontier": 18,
+      "h_d": 138,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 46,
+      "d": 4,
+      "frontier": 33,
+      "h_d": 243,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 94,
+      "d": 5,
+      "frontier": 18,
+      "h_d": 75,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 92,
+      "d": 6,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   },
+   {
+    "h": [
+     1,
+     9,
+     44,
+     138,
+     243,
+     75,
+     1
+    ],
+    "p": 6126067,
+    "seconds": 0.0,
+    "steps": [
+     {
+      "candidates": 1,
+      "d": 0,
+      "frontier": 1,
+      "h_d": 1,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 1,
+      "d": 1,
+      "frontier": 1,
+      "h_d": 9,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 5,
+      "d": 2,
+      "frontier": 5,
+      "h_d": 44,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 18,
+      "d": 3,
+      "frontier": 18,
+      "h_d": 138,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 46,
+      "d": 4,
+      "frontier": 33,
+      "h_d": 243,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 94,
+      "d": 5,
+      "frontier": 18,
+      "h_d": 75,
+      "seconds": 0.0
+     },
+     {
+      "candidates": 92,
+      "d": 6,
+      "frontier": 2,
+      "h_d": 1,
+      "seconds": 0.0
+     }
+    ]
+   }
+  ]
+ }
+}

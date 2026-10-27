@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+certificates/verified_output/certify_unicycle
+strata/d5_generic_tables.pkl
+tables/*.aux
+tables/appendix_B.log
+tables/*.out
+# output of ./run_all.sh --quick
+*_quick*
+tables/check_tables_mod.txt

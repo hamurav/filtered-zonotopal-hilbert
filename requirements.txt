@@ -1,0 +1,7 @@
+# Python 3.9 or later. The recorded run used Python 3.13.16 with
+# NumPy 2.5.3, SymPy 1.14.0 and networkx 3.7.
+# certificates/ also needs a C++17 compiler and the GMP library
+# (for example: apt install g++ libgmp-dev, or brew install gmp).
+numpy
+sympy
+networkx

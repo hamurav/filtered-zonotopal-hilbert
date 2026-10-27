@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+% Tables of Hilbert functions for "Hilbert functions of filtered graphical
+% zonotopal algebras" (B. Shapiro, I. Smirnov, A. Vaintrob).
+% Formerly Appendix B of the paper.  Compile with pdflatex appendix_B.tex.
+% The tables themselves are in tables345_clean.tex, the file that
+% check_tables.py reads; do not edit one without the other.
+\usepackage[margin=.8in]{geometry}
+\usepackage{mathtools,amssymb}
+\usepackage{graphicx,xcolor}
+\usepackage{rotating}
+\usepackage{booktabs,array}
+\usepackage{tikz}
+\tikzset{vertex/.style={circle,fill,inner sep=1.pt}}
+\usepackage[mathscr]{eucal}
+\usepackage{caption}
+\usepackage{url}
+
+\newcommand{\CC}{\mathscr{C}}
+\newcommand{\hs}{\mathscr{H}}
+
+% Statement numbers of the paper (first arXiv version) cited in the
+% table source.
+\makeatletter
+\newcommand{\paperref}[2]{\expandafter\gdef\csname r@#1\endcsname{{#2}{}}}
+\makeatother
+\paperref{rem:small-complete-profiles}{6.13}
+\paperref{thm:D4-strata}{6.10}
+
+\renewcommand{\thesection}{B}
+\renewcommand{\thetable}{B\arabic{table}}
+
+\title{Tables of Hilbert functions of filtered graphical zonotopal algebras}
+\author{Boris Shapiro, Ilya Smirnov, Arkady Vaintrob}
+\date{Supplement to the paper \emph{Hilbert functions of filtered graphical
+zonotopal algebras}}
+
+\begin{document}
+\maketitle
+
+\section{Selected numerical tables}
+
+These tables give the Hilbert functions $\hs_G^f$ of the filtered external
+zonotopal algebras $\CC^f_G$ for a number of graphs $G$ and nondegenerate
+polynomials $f$. Statement and equation numbers refer to the first arXiv
+version of the paper; Tables B1--B4 were Tables 12--15 of its version of
+21 October 2026. All entries have been
+verified by exact rational arithmetic directly in the square-free edge
+algebra $\Phi_G$, using the generators $Y_v=f(X_v)$: the script
+\url{check_tables.py} in this directory reads the edge lists from the
+source of the drawings below and recomputes every entry. The file
+\url{tables.json} (and \url{tables.csv}) lists every entry with its edge
+list.
+
+If $f=u$, i.e.\ when $\CC^f_G$ is the usual graded zonotopal algebra, the
+answer is given by Theorem~2.10. In particular, if $G$ is a tree with $n$
+edges, then $\hs_G^u=(1+t)^n$. We assume that $\deg f\le \Delta(G)$, since,
+as explained in Remark~3.3, the terms of $f$ of degree higher than
+$\Delta(G)$ do not affect $\CC^f_G$.
+
+For a nonzero quadratic coefficient and a graph whose loopless part has no
+isolated vertices or isolated edges, Proposition~3.13(iii) gives
+$h_1=|V|$. For graphs of maximum degree three the tables give complete
+profiles; for maximum degree four they give values at nine parameters.
+
+\subsection{Graphs with at most five vertices}
+
+The tables use the actual generating function $Y_v=f(X_v)$. In
+particular, the parameter $f$ is not the inverse series used in the
+defining relations; compare (6.5). The graphs are determined by their
+drawings: each drawn segment or arc is one edge.
+
+\input{tables345_clean.tex}
+
+\end{document}
