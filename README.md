@@ -2,12 +2,16 @@
 
 Boris Shapiro, Ilya Smirnov, Arkady Vaintrob.
 
+The paper is [arXiv:2610.38469](https://arxiv.org/abs/2610.38469).
+Version 1.0 of this repository is archived at Zenodo,
+[doi:10.5281/zenodo.23698148](https://doi.org/10.5281/zenodo.23698148).
+
 This repository contains the programs behind every computer-assisted
 statement of the paper, with their recorded output, tables of Hilbert
 functions of small graphs (`tables/`, formerly Appendix B of the paper),
 and the data for its conjectures. Statement numbers refer to the first
-arXiv version of the paper. The statements are also named, so that the
-table below can be matched with other versions.
+arXiv version of the paper, arXiv:2610.38469v1. The statements are also
+named, so that the table below can be matched with other versions.
 
 ## What kind of computation each statement rests on
 
@@ -230,4 +234,5 @@ regenerated. Apart from these numbers it is identical to the recorded run.
 ## Licence and citation
 
 The code and data are released under the MIT licence (`LICENSE`). If you
-use them, please cite the paper; `CITATION.cff` has the details.
+use them, please cite the paper (arXiv:2610.38469), and the Zenodo DOI above
+for the code; `CITATION.cff` has the details.
